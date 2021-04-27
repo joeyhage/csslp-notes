@@ -40,10 +40,10 @@ ATMs use combination of something you know (PIN) and something you have (card) s
 
 Three elemends are used:
 1. Requestor (subject) - already known due to authentication system
-3. Object
-  - file, program, data, other resource
-4. Type/level of access to be granted
-  - Read, write, create, delete, right to grant access rights to other objects
+2. Object
+   1. file, program, data, other resource
+3. Type/level of access to be granted
+   1. Read, write, create, delete, right to grant access rights to other objects
 
 #### Accounting (Auditing)
 ###### Accounting is a means of measuring activity, auditing is the verification of what actual happened and allows management to observe in a nonpartisan manner
