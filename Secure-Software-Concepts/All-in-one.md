@@ -68,7 +68,76 @@ When authentication, authorization, and auditing are properly configured, non-re
 
 ### System Tenets
 
+#### Session Management
+###### Design and implementation of controls to ensure that communication channels are secured from unauthorized access and disruption
+TCP (Transmission Control Protocol)
+- sequential numbering of packets and retransmission for missing packets
+- Prevents unauthorized packets and session hijacking
+- Has overhead
+UDP (User Datagram Protocol)
+- connectionless/sessionles
+
+#### Exception Management
+- All exceptions must be detected and handled
+- System should not fail in an insecure state
+- Exception should not be leaked
+
+#### Configuration Management
+Configuration should be protected from unauthorized changes
+e.g. separation of duties between production/non-prod personnel
+
 ### Secure Design Tenets
+
+#### Good Enough Security
+Don't spend $10,000 to protect a $20 bill
+Trade-offs exist between security and other aspects
+
+#### Least Privilege
+If a subject may require different levels of security for different tasks, better to switch security levels with specific tasks than run all the time at higher privilege
+
+#### Separation of Duties
+No single individual can abuse the system
+
+#### Defense in Depth
+i.e. layered security/defense and diversity defense
+Multiple, overlapping defenses
+No system is 100% secure - **true goal of security is to make cost of compromising greater in time/effort/resources than it is worth**
+
+Diversity of defense - layers should be dissimalr in nature
+
+#### Fail-safe
+###### When a system experiences a failure, it should fail to a safe state
+Example: explicit deny
+CIA need to be appropriately maintained - availability causes the greatest design difficulties
+
+#### Economy of Mechanism
+Higher complexity generally results in less security due to lack of understanding and more attack vectors
+Root cause analysis, especially for potential security issues, is much more difficult in complex systems
+**Rule of thumb**: eliminate all nonessential services and protocols
+
+#### Complete Mediation
+###### Authorization is never circumvented, even with repeated access
+Example: security kernel
+
+#### Open Design
+Don't rely on security by obscurity
+Example: modern cryptography relies on the secrecy of the key, not secrecy of the algorithm
+
+#### Least Common Mechanism
+###### Prevent inadvertent sharing of information by using separate processes when possible
+
+#### Psychological Acceptability
+Users will try to get around security if it is seen as an obstacle
+
+#### Weakest Link
+Adding to the security of a system is most effective when applied to the weakest link
+
+#### Leveraging Existing Components
+Pros: increase efficiency and security
+Cons: monoculture environment (failures have a larger footprint)
+
+#### Single Point of Failure
+No one single piece should be able to cause the whole system to fail
 
 ## Security Models
 
