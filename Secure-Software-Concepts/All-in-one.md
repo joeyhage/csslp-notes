@@ -140,8 +140,56 @@ Cons: monoculture environment (failures have a larger footprint)
 No one single piece should be able to cause the whole system to fail
 
 ## Security Models
+Three key elements: people, processes, and technology
+Controls using 2-3 elements are more effective
 
 ### Access Control Models
+#### ACL - access control list
+#### MAC - mandatory access control
+rarely used
+originated in military
+**restrict based on information sensitivity and clearance to access that information**
+system designers have to determine object/subject relationships before they can be used
+
+#### DAC - discretionary access control
+most common
+originated in military 
+**restrict based on identity of subjects/groups they belong to** 
+If a subject has permission, it is capable of passing that permission onto any other subject
+
+ACLs are the most common mechanism used to implement this control
+Strength: simplicity
+Weakness: security is optional, owner has to define access for potentially a plethora of objects
+
+#### RBAC - role-based access control
+pretty common for active directory
+
+#### RBAC - rule-based access control
+much less common than role-based
+Use ACLs that have rules baked in such as only allow access during a certain time-of-day
+
+#### Access control matrix model
+strength: simplicity
+weakness: difficult to implement due to no contraints, doesn't scale well
+
+#### ABAC - attribute-based access control
+Example: doctor getting one set of access for a specific patient vs a different patient
+Represented via eXtensible Access Control Markup Language (XACML)
+- also works for policy-based access control
+
+#### Bell-LaPadula Confidentiality Model
+Two principles
+1. Simple Security Rule - in order to see something, you have to be authorized
+   1. Used to preserve confidentiality - e.g. subject with medium clearance can't ready information with high sensitivity, only medium sensitivity
+   2. No-read-up
+2. * property (star property) 
+   1. No-write-down
+   2. Subjects can only write to an object if the object has equal or higher classification - e.g. medium clearance can only write to medium sensitivity and above
+
+#### Take-Grant Model
+Uses graph theory based on mathematical representation of controls
+Can be used to definitively determine rights
+Not typically used to implement access control but rather to analyze implementations
 
 ### Multilevel Security Model
 
