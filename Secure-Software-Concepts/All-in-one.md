@@ -220,18 +220,101 @@ Can be used to definitively determine rights
 Not typically used to implement access control but rather to analyze implementations
 
 ### Multilevel Security Model
+###### Separate groups have labels, groups act as containers, can be hierarchical
 
 ### Integrity Models
+Depending on type of information, can be just as important or more important than confidentiality. e.g. stock prices (public but integrity is crucial)
+
+#### Bibi Integrity Model
+Integrity levels separate permissions
+
+Low water mark policy, i.e. no-write-up rule
+- lower integrity subjects can't write up to higher integrity subjects
+
+Integrity level of a subject is lowered if it acts on a subject with lower integrity
+
+#### Clark-Wilson security model
+Uses transactions
+
+Two levels:
+- Constrained data items (CDI)
+  - Subject to integrity controls
+- Unconstrained data items (UDI)
+
+Two types of processes:
+- Integrity verification processes (IVPs)
+  - Ensure CDI data meets contraints
+- Transformation processes (TPs)
+  - Change state of data from one to another
+  - Data can only be changed by trusted TPs, not users
+
+Example:
+- A bank account balance is a CDI since integrity is important
+- TP is the only way changes can be made
+- IVP ensures balance is correct
+
 
 ### Information Flow Models
 
+#### Brewer-Nash Model (Chinese Wall)
+- Technology employed to prevent access
+- People trained not to compromise information
+- Policies/processes put in place to ensure technology/people are properly used
+
+#### Data Flow Diagrams (DFDs)
+Main security issue is protecting information when stored, in transit, and being processed
+
+Multiple levels - Level 0 (high level), level 1, level 2 (lowest level)
+
+#### Use Case Model 
+Functional perspective - how the system uses data
+
+Use cases for normal and abnormal use
+- **Very important to security to understand use cases and misuse cases**
+
+#### Assurance Models
+###### Software assurance - level of confidence that software is free from intentional and accidental vulnerabilities, software functions as intended
+
+#### Operational model of security
+Three methods of managing security:
+1. prevention - access control, firewall, encryption
+2. detection - audit logs, intrusion detection, honeypots
+3. response - backups, incident response teams, forensics
+
+#### NIST CSF
+Standards, guidelines, best practices
+
+5 main categories:
+1. Identify
+2. Proect
+3. Detect
+4. Respond
+5. Recover
+
 ## Adversaries
+Includes mother nature :)
 
 ### Adversary Type
+###### Based on skill level
+
+1. Script Kiddie - 80-85% of adversaries
+2. Hacker - explorer - 15-20% **key adversary due to skill/motivation**
+   1. Cracker - hacker with malicious intent
+3. Elite - 1-3%
+   1. completely underground
 
 ### Adversary Groups
+###### Skill and capability
+1. Unstructured threat - little or no resources, no specific motivation, typically only an annoyance
+2. Structured threat - specific mission, time and resources
+3. Highly structured threat - organized crime, crimeware
+4. Nation-state threat
+   1. Advanced persistent threat (APT) - multiple methods to penetrate and then live undetected
+5. Insider vs outsider
 
 ### Threat Landscape Shift
+Around 2005 - criminalization of cyberspace allowing monetization 
+- Market for exploits
 
 ## Review
 
