@@ -1,7 +1,5 @@
 # General Security Concepts
 
-## General Security Concepts
-
 ### Security Basics
 Determining and applying the appropriate balance of confidentiality, integrity, and availability (CIA)
 
@@ -315,40 +313,3 @@ Includes mother nature :)
 ### Threat Landscape Shift
 Around 2005 - criminalization of cyberspace allowing monetization 
 - Market for exploits
-
-# Risk Management
-###### assess the impact if an adverse event were to happen decide what could be done to control that impact as deemed necessary
-
-Well formed risk statement includes:
-1. asset
-2. threat
-3. vulnerability
-4. mitigation
-5. impact
-6. probability
-
-## Risk
-Systematic risk
-- fire, theft, software bugs - mitigated through diversification
-- predictable under stable circumstances
-Unsystematic risk
-- recession, epidemics, protocol design errors
-- come from sources that are difficult to predict
-
-### Business risk
-- operation of a business as a business
-
-Examples:
-- Treasury management (financial risk)
-  - holdings in bonds, futures, currencies, etc
-
-## Qualitative
-###### Subjectively determine impact of an event - involves experts and group consensus 
-
-## Quantitative
-###### Objectively determine impact of an event - involves use of metrics and models
-
-
-# Security Policies and Regulations
-
-# Software Development Methodologies
