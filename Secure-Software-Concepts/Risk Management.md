@@ -92,9 +92,67 @@ Two aspects: impact and probability
 
 ### Qualitative matrix
 
+### Failure mode effects analysis (FMEA)
+- assess failures and effects on the system
+- for each issue, elements are defined
+- severity of risk is defined (1-10)
+- probability (1-10)
+- detectability (1-10)
+- calculate product (over 200 / 1000 worth looking at)
+
 ## Quantitative
 ###### Objectively determine impact of an event - involves use of metrics and models
+- use historical loss and trends to predict future loss
+- highly dependent on historical loss data
+- assuming constant risk rate is not an agreed upon concept
 
+key info:
+- important to come to consensus on values being used 
+- use consistent values
+- models can never replace judgement and experience, but can enhance decision making
+
+### Single loss expectancy (SLE)
+SLE = asset value * (exposure factor or duration)
+
+### Annualized rate of occurrence (ARO)
+ARO = number of events / number of years covered
+
+### Annualized loss expectancy (ALE)
+ALE = SLE * ARO
+
+## Residual Risk Model
+Absolute security is not achievable 
+Example: 
+- potential loss of $100k
+- firewall blocks 95%
+- IDS (intrustion detection system) is 80% effective
+- IRT (incident response team) is 50% effective
+- 100k * 95% + (5k * 80% * 50%) = 97k with 3k residual
+
+### ROI
+ROI % = (avoided loss - control cost) / control cost * 100
+ROI time = avoided annual loss / annual control cost
+
+## Governance, Risk, and Compliance
+**Governance**: sum of exective actions that manage risk
+
+need to comply with laws and regulations, so GRC terms are used synonomously
+
+**Compliance**: activities associated with external requirements (contractual, policy, strategic, industry, regulations, laws)
+**Conformance**: activities associated with internal requirements (org policies/standards)
+
+Compliance gets priority over conformance 
+- many reasons, primary being penalties
+
+### Legal
+Two key legal issues with significant risk
+1. intellectual property
+   - legal action provides some protection but not against unknown criminals
+3. data breach
+
+### Standards
+- established norms
+- **goal**: define rules to ensure specified level of quality
 
 # Security Policies and Regulations
 
