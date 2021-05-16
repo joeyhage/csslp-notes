@@ -154,6 +154,25 @@ Two key legal issues with significant risk
 - established norms
 - **goal**: define rules to ensure specified level of quality
 
-# Security Policies and Regulations
+## Risk Management Models
 
-# Software Development Methodologies
+### General Risk Management Model
+1. Asset identification
+   - includes classification
+2. Threat assessment
+   - threats and vulnerabilities for each asset
+   - likelihood of occurence
+3. Impact determination and quanitification
+   - Tangible: financial loss, physical damage
+   - Intangible: reputation
+4. Control design and evaluation
+   - Decide which controls to implement
+5. Residual Risk Management
+   - Identify additional controls needed to reduce residual risk
+
+### Software Engineering Institute Model
+1. Identify - list potential risks
+2. Analyze - impact, probability - classify and prioritize risks
+3. Plan - Decide actions to take and implement mitigation
+4. Track - Monitor and review risks and mitigations
+5. Control - make corrections as needed
