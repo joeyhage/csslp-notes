@@ -139,6 +139,7 @@ ROI time = avoided annual loss / annual control cost
 need to comply with laws and regulations, so GRC terms are used synonomously
 
 **Compliance**: activities associated with external requirements (contractual, policy, strategic, industry, regulations, laws)
+
 **Conformance**: activities associated with internal requirements (org policies/standards)
 
 Compliance gets priority over conformance 
