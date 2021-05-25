@@ -53,3 +53,52 @@ Standard to validated that a payment application is compliant with PCI DSS
 
 ### PIN Transaction Security (PTS)
 Applies to PIN Entry Devices (PEDs)
+
+## Legal Issues
+
+### Intellectual Property
+
+1. Patents
+  - Exclusive right for a specified time
+  - protect rights in exchange for disclosure of invention
+  - Varies by country but in the US, invention must be new, useful, and nonobvious
+  - Prevent others from using invention
+  - Patent must be applied for prior to disclosure
+  - challenging and expensive
+2. Copyrights
+  - Protection of an idea or information for a specified time
+  - right to be credited, who may adapt, who may perform, who may financially benefit, etc
+  - governed internationally by Berne Convention
+  - straightforward and affordable
+3. Trademarks
+  - recognizable quality of product/firm
+  - used to build brand association
+  - can be common-law or registered - registered provides more legal protection and recovery
+  - managed internationally through World Intellectual Property Organization
+4. Trade Secrets
+  - best time-based protection
+  - protected by many laws as long as company makes a reasonable attempt to keep it secret
+  - if secret is independently discovered (e.g. recipe), then secret holder has no recourse
+  - US Digital Millenium Copyright Act prohibits reverse-engineering of security safeguards
+5. Warranty
+  - hardware often has a warranty to perform at the specified level
+  - software does not and is generally sold as is
+
+## Privacy
+To obtain certain goods, users must consent to share certain information
+
+One main issue with privacy is data disposition
+
+### Privacy Policy
+Internal privacy policy details the firm's responsibilities to protect information
+
+External privacy policy, or privacy disclosure statement, informs customers how data is protected, used, and disposed of
+
+In financial sector, Gramm-Leach-Bliley Act mandates firms clearly state how information is shared
+
+### PII
+
+### PHI (Personal Health Information / Protected Health Information)
+Highly valued by cybercriminals 
+
+### Breach notifications
