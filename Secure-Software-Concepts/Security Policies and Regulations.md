@@ -59,30 +59,30 @@ Applies to PIN Entry Devices (PEDs)
 ### Intellectual Property
 
 1. Patents
-  - Exclusive right for a specified time
-  - protect rights in exchange for disclosure of invention
-  - Varies by country but in the US, invention must be new, useful, and nonobvious
-  - Prevent others from using invention
-  - Patent must be applied for prior to disclosure
-  - challenging and expensive
+   - Exclusive right for a specified time
+   - protect rights in exchange for disclosure of invention
+   - Varies by country but in the US, invention must be new, useful, and nonobvious
+   - Prevent others from using invention
+   - Patent must be applied for prior to disclosure
+   - challenging and expensive
 2. Copyrights
-  - Protection of an idea or information for a specified time
-  - right to be credited, who may adapt, who may perform, who may financially benefit, etc
-  - governed internationally by Berne Convention
-  - straightforward and affordable
+   - Protection of an idea or information for a specified time
+   - right to be credited, who may adapt, who may perform, who may financially benefit, etc
+   - governed internationally by Berne Convention
+   - straightforward and affordable
 3. Trademarks
-  - recognizable quality of product/firm
-  - used to build brand association
-  - can be common-law or registered - registered provides more legal protection and recovery
-  - managed internationally through World Intellectual Property Organization
+   - recognizable quality of product/firm
+   - used to build brand association
+   - can be common-law or registered - registered provides more legal protection and recovery
+   - managed internationally through World Intellectual Property Organization
 4. Trade Secrets
-  - best time-based protection
-  - protected by many laws as long as company makes a reasonable attempt to keep it secret
-  - if secret is independently discovered (e.g. recipe), then secret holder has no recourse
-  - US Digital Millenium Copyright Act prohibits reverse-engineering of security safeguards
+   - best time-based protection
+   - protected by many laws as long as company makes a reasonable attempt to keep it secret
+   - if secret is independently discovered (e.g. recipe), then secret holder has no recourse
+   - US Digital Millenium Copyright Act prohibits reverse-engineering of security safeguards
 5. Warranty
-  - hardware often has a warranty to perform at the specified level
-  - software does not and is generally sold as is
+   - hardware often has a warranty to perform at the specified level
+   - software does not and is generally sold as is
 
 ## Privacy
 To obtain certain goods, users must consent to share certain information
