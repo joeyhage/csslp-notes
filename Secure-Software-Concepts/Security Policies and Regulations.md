@@ -24,7 +24,7 @@ NIST six steps for a RMF:
 5. Authorize information systems
 6. Monitor controls
 
-## Sarbanes-Oxley
+## Sarbanes-Oxley (2002)
 - financial accounting information systems must have control over integrity
 
 ## Gramm-Leach-Bliley Act / Financial Modernization Act of 1999 (GLBA)
@@ -102,3 +102,51 @@ In financial sector, Gramm-Leach-Bliley Act mandates firms clearly state how inf
 Highly valued by cybercriminals 
 
 ### Breach notifications
+- Incident response (what happened, how, what was lost)
+- Most states have disclosure laws, no federal law
+
+### Data Protection Principles
+- data protection - European Union
+- European Union Data Protection Directive (EUDPD) - old
+- General Data Protection Regulation (GDPR)
+- In US, consumers must opt-out
+
+#### European Union Privacy Law
+- consumers must opt-in
+- three conditions must be met for processing personal data:
+  - transparency: consent, including purpose and recipients
+  - legitimate purpose
+  - proportionality
+
+#### Safe Harbor Principles
+Non-EU firms can meet EUDPD requirements by:
+**Have been replaced, still helpful to understand**
+
+1. **Notice**: inform customers of data collection and purpose
+2. **Choice**: can opt out of collection and transfer of data
+3. **Onward transfer**: third parties must follow principles
+4. **Security**: Reasonable efforts to prevent loss of data
+5. **Data integrity**: Relevant and reliable for purpose it was collected
+6. **Access**: Customers can access data and correct/delete
+7. **Enforcement**: Effective means for enforcing rules
+
+### GDPR (2018)
+Several major changes:
+1. Personal Data elements are anything that can be linked back to a subject, including cookies
+2. Individuals must have full access to how data is processed in a clear manner
+   - who is asking for the data
+   - what the data will be used for
+   - how long can it be kept
+   - if and where it will be transferred internationally
+   - right to access, correct, or erase
+   - right to withdraw consent, even after collection
+   - right to lodge a complaint
+
+### California Consumer Privacy Act of 2018 (AB 375)
+Similar to GDPR
+
+individuals still must opt out but they have rights:
+- right to know (access to data and how it's used)
+- right to delete (some exceptions)
+- right to opt out of sale of information
+- right to non-discrimination if they don't want data sold
