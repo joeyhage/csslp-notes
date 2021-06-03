@@ -150,3 +150,49 @@ individuals still must opt out but they have rights:
 - right to delete (some exceptions)
 - right to opt out of sale of information
 - right to non-discrimination if they don't want data sold
+
+## Security Standards
+
+### ISO (International Organization for Standardization)
+- five year review cycle
+
+Relevant area is under JTC 1 - Information Technology
+- Subcommittee 7 (Software and Systems Engineering)
+- Subcommittee 27 (IT Security Techniques)
+
+Prominent ISO Standards for CSSLPs - **See page 64**
+
+### ISO 2700X Series
+For information security
+
+Includes vocabulary, code of practice, implementation guidance, metrics, and risk management
+
+### ISO 15408 Common Criteria / Evaluation Assurance Levels (EAL)
+Functional and assurance requirements
+
+Claims can be made about the product that can be evaluated and verified
+
+- **TOE**: Target of Evaluation - product or system being evaluated
+- **ST**: Security Target - security properties of a TOE
+- **PP**: Protection profile - set of security requirements associated with a certain class of product
+  - products in the same class can be compared more easily
+
+higher EAL != better security
+
+### ISO 9126 Software Engineering Product Quality
+- four parts to define a quality model
+- Quality of use metrics for specific scenarios
+  - Functionality
+  - Reliability
+  - Usability
+  - Efficiency
+  - Maintainability
+  - Portability
+
+### ISO 12207 Systems and Software Engineering - Software Life Cycle Processes
+- set of processes each having its own activities, tasks, and outcomes
+
+### ISO 15504 Information Technology - Process Assessment 
+SPICE/SPICD - Software Process Improvement and Capability Determination
+
+### NIST
