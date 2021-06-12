@@ -196,3 +196,108 @@ higher EAL != better security
 SPICE/SPICD - Software Process Improvement and Capability Determination
 
 ### NIST
+National Institute of Standards and Technology
+
+Computer security division
+- Federal Information Security Management Act of 2002 (FISMA)
+
+Information Technology Laboratory (ITL)
+- Security bulletins 6x/yr
+- Interagency/internal reports (NISTIRs): technical research
+
+#### Federal Information Processing Standards (FIPS)
+- mandatory reqs on fed agencies and specific contractors
+- few but broad in authority and scope
+- Since FISMA, all aspects are mandatory and waivers are not allowed
+
+#### NIST SP 800 Series
+- more commonly used by industry
+- communicate results of research/guidelines assoc with securing systems
+- incl. cryptographic protocols, security reqs, risk mgmt framework, governance, etc
+
+#### Industry
+- SAFECode
+  - Industry-backed
+  - increase comm. between firms on software assurance
+  - share best practices that have been successful
+  - **SAFECode Releases Software Security Guidance for Agile Practitioners**
+  - valuable to large and small firms
+
+## Secure Software Architecture
+
+### Security Frameworks
+
+#### COBIT - Control Objectives for Information and Related Technology
+Published by ISACA (Information Systems Audit and Control Association)
+- bridge gap between control reqs, tech issues, and business risks
+- Latest is COBIT 2019 (book explains COBIT 5)
+- COBIT 5 Principles
+   1. Meeting stakeholder needs
+   2. covering the enterprise end to end
+   3. applying a single, integrated frmwrk
+   4. enableing a holistic apprch
+   5. separating governance from mgmt
+
+#### COSO - Committee of Sponsoring Organizations of the Treadway Commition
+- five private-sector orgs in response to Treadway Commisions report on fraudulent financial reporting
+- Enterprise Risk mgmt integrated frmwrk to assess control systems
+- five components/principles
+  - control env
+  - risk assmnt
+  - cntrl activities
+  - info and communication
+  - monitoring
+
+#### ITIL - Information Technology Infrastructure Library
+- aligning IT services with bus. needs
+
+**Five volumes**
+1. ITIL Service Strategy
+2. ITIL Service Design
+3. ITIL Service Transition
+4. ITIL Service Operation
+5. ITIL Continual Service Improvement
+
+#### Zachman
+- matrix frmwrk to define an enterprise
+
+#### SABSA - Sherwood Applied Business Security Architecture (SABSA)
+- frmwrk and methodology for risk-driven enterprise infosec architectures
+- similar to Zachman
+- Goal: all reqs, including security reqs, can be derived from business reqs
+- Works well with SDLC
+
+#### SDLC 
+Using some kind of process-based lifecycle results in greater security
+- partly due to models
+- partly due to opportunities for process improvement on models
+
+#### SEI CMMI (Software Engineering Institute - Capability Maturity Model Integration)
+- rates process maturity on a 1-5 scale
+- Three primary areas: product/service dvlpmnt, service establishment/mgmt, product/service acquisition
+- **framework for business process improvement**: improving operational processes
+
+#### OWASP - already familiar with :)
+
+#### OCTAVE - Operationally Critical Threat, Asset, and Vulnerability Evauluation
+- tools, techniques, methods for risk-based infosec assmnt
+- Three phases: build asset-based threat profiles, identify infra vulns, dvlp security stratgy
+
+#### BSI - Build Security In
+- US Dep of Homeland Security 
+- info on research, best practices, generic principles for software security
+- collaborative effort for devs, architects, infosec practitioners to build security into SDLC
+
+## Trusted Computing 
+- developed and promoted by trusted computing group (TCG)
+- Has a trusted platform module (TPM) with encryption key that is only accessible through the TPM chip
+- controversy: could the machine be secured from its owner?
+
+### Principles
+1. security
+2. privacy
+3. interoperability
+4. portability of data
+5. controllability
+6. ease of use
+
