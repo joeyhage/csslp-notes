@@ -301,3 +301,51 @@ Using some kind of process-based lifecycle results in greater security
 5. controllability
 6. ease of use
 
+#### Ring Model
+- system method
+- protect data/functionality from errors and malicious behavior
+- ring can only interact within itself or with adjacent rings
+
+#### Reference Monitor (reference validation mechanism)
+- access control methodology
+- mediates interaction between subjects/objects
+- three qualities are req:
+  - no path around it, always invoked (complete mediation)
+  - tamper-proof
+  - small enough to be verifiable
+
+#### Protected Objects
+- existence may be known, cannot be interacted with directly
+- must use protected subsystem with specific procedures and a security policy
+
+### Trusted Computing Base (TCB)
+- combination of software/firmware/hardware to ensure security
+- includes kernel and reference monitors, **not applications**
+  - if application becomes compromised, it would not affect TCB
+
+### Trusted Platform Module (TPM)
+- secure storage of crypto. keys and platform auth - on a chip
+
+### Microsoft Trustworthy Computing Initiative (2002)
+Four pillars:
+1. security (including social dimension)
+2. privacy
+3. reliability
+4. business integrity
+
+## Acquisition
+Terms:
+- Commercial off-the-shelf (COTS)
+- Government off-the-shelf (GOTS)
+
+### Build vs buy
+- some things are best purchased (database software)
+- mission-critical or proprietary business info is best built
+
+### Outsourcing 
+- can find cheaper programmers/people but most of a project's cost is not from the coders
+- has challenges due to geographic separation
+
+### Contractual Terms and SLAs
+- should include references to security cntrls/standards
+
