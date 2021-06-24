@@ -90,3 +90,98 @@ Standard Techniques:
     - commonly used for software because it is modular
 - limits resources to test major elements and reduce risk
 - can be used in spiral/agile
+
+## Microsoft Security Development Lifecycle
+- Goal: produce software that is secure, not software that performs security or has specific security features
+  - Reduce # of security vulns
+  - reduce severity of security vulns that remain
+- 2004 SD3+C
+  - Secure by Design
+  - Secure by Default
+  - Secure in Deployment
+  - Communications
+
+### Secure by Design
+- review detailed designs
+- develop mitigations for all identified threats
+- consider legacy code and protocols
+- deprecate elements that are no longer secure
+
+#### Privacy by design
+- end-user control: enable end-user to make informed decisions about data collected, stored, shared
+- only collect and retain required info
+- use encryption to mitigate data loss issues
+  - modular fasion in case it needs to be changed
+  - proper crypto libraries/functions
+  - proper key protection/rotation
+
+### By Default
+- default config is as secure as possible
+- default config with privacy in mind
+- limit features turned on by default
+  - if less than 80% will use, turn off by default
+- software should only operate with elevated rights when required
+- minimize attack surface by default
+- notify user if default config changes
+- limit services/daemons running by default 
+
+### In Deployment
+- one of last major touchpoints where config/settings are routinely modified
+- develop prescriptive deployment guides
+  - How
+  - Implications
+  - options available to user
+- patching/upgrades should be built into deployment and give users control
+
+### Communications
+- efficient channels between security response and dev teams
+- channel where dev team is connected to info sources like end-user issues/reports
+- communicate security changes to end-users
+- media/trade outlets to customers/prospective customers
+- White papers/technical documentation can improve effectiveness of security effort by reducing concerns/issues from customers (transparency)
+  - Open communication = increased cooperative/coordinated efforts
+  - Open communication != increased risk
+
+## Microsoft SDL Components
+- started in 2002
+
+### Training 
+- targeted security training for all 
+- training hour requirements
+- includes:
+  - core training - prereq, basic knowledge
+  - specialized modules for specific roles
+  - new developments/practices in industry
+    - may become part of core if becomes mainstream
+
+### Requirements
+- establish security and privacy reqs for software
+- create quality gates and bug bars
+- develop security/privacy risk assessments
+
+### Design 
+- risk and privacy analyses
+- mitigated by design
+- attack surface reduction techniques
+- threat modeling for known and potential threats
+
+### Implementation
+- approved languages, functions, libraries
+- remove deprecated functions
+- recode legacy code
+- static program checkers to maintain code standards
+
+### Verification
+- known and potential vulns
+- review attack surface: does it match design 
+- fuzz testing against inputs
+
+### Release
+- prepare for potential issues coming in
+- prepare incident response plan
+- confirm all security elements completed and documented
+
+### Response
+- collect error reports and handle per incident response plan
+  - current release bug fixes through patches
+  - future releases: mitigation
