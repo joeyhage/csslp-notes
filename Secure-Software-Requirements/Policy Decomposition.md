@@ -23,3 +23,25 @@ Regulations and government directives are also sources of security requirements
 - available to authorized users when needed
 - deny unauthorized
 - prevent DoS
+
+## Authentication, Authorization, and Auditing Requirements
+
+### Identification and Authentication
+Identity Requirements:
+- identity mechanism
+- mgmt of identities, incl. reaffirmations
+
+Authentication Requirements:
+- method of authentication
+- strength of authentication
+
+- Most authentication is one party authenticating the other (bank auth. account holder)
+- Sometime mutual authentication is used (both parties authenticating each other simultaneously) to prevent MITM attacks
+
+### Access Control Mechanisms
+
+#### Mandatory access control MAC
+#### Discretionary access control DAC
+#### Role-based access control RBAC
+#### Rule-based access control RBAC
+
