@@ -41,7 +41,60 @@ Authentication Requirements:
 ### Access Control Mechanisms
 
 #### Mandatory access control MAC
-#### Discretionary access control DAC
-#### Role-based access control RBAC
-#### Rule-based access control RBAC
+- Much more restrictive
+- Access determined by security classification
+- Each subject and object has a label, operating system determines if access is granted
+- also implements "need to know" - just because a subject has appropriate clearance, does not mean they will be able to access
 
+#### Discretionary access control DAC
+- owner of object determines access levels 
+- ACLs (access control lists)
+
+#### Role-based access control RBAC
+- doesn't use ACLs, uses roles (like AD groups)
+- users are assigned to roles and roles are assigned access
+
+#### Rule-based access control RBAC
+- Uses ACLs but adds rules into ACLs
+- MAC can use rule-based for implementation
+- rules can be things like dates/times access is allowed
+- users are not allowed to change rules
+
+#### Attribute-based access control (ABAC)
+- attributes/specific elements of the data/object are used to determine access
+- e.g. if a patient has a certain attribute (is receiving certain treatment), that determines which doctors/staff can access
+
+### Auditing
+
+#### risk based issues
+three forms of audit related risk:
+- **inherent risk**: inherent error rate before controls
+- **detection risk**: risk audit will not detect it
+- **control risk**: risk that controls will not detect or prevent in a timely fashion
+
+#### Orghanizational characteristics 
+Examples:
+- organizational history
+- business env
+- supervisory issues
+
+**organizational security elements:**
+- roles and responsibilities
+- separation of duties
+- training and qualifications
+- change mgmt
+- control mgmt
+
+## Internal security reqs
+Items used by the system to protect data and communications, for example:
+- protect audit logs
+- manage data loss prevention elements
+- monitor internal system traffic
+- monitor internal controls
+- protect configuration files
+
+## External security reqs
+statutory and regulatory regulations, contractual obligations, for example:
+- use security controls to manage external connections
+- manage external connections and authentication
+- content filtering and proxies to protect against web-based threats
