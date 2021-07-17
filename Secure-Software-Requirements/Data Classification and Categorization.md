@@ -68,4 +68,51 @@ impact considerations include cost, operation impact, and people impact
 #### Clearly Definining levels
 - high: set high enough that a small number of data elements are included
 - financial limits and customer impact vary, each company needs to decide for itself
--  
+
+## Types of data
+
+### Structured
+- has a defined structure that can be parsed, sorted, searched
+- is not determined by where it is stored, but how
+- look for relationships between data elements
+
+examples: 
+- tables in a database
+- formatted file structures
+- XML
+- JSON
+- certain text files like log files
+
+### Unstructured
+- not easily parsed/searched
+- more difficult to modify outside originating application (word docs, pdfs)
+- majority of data is unstructured
+
+## Data lifecycle
+- cost of storing data is still a resource issue despite lower costs
+- must be managed from backup, business continuity, disaster recovery perspective
+
+### Generation
+if data is going to be persistent, need to label, classify, protect
+
+### Retention
+if retained, must have metadata defined such as:
+- data owner
+- purpose of storing
+- level of protection 
+- length of storage (retention policy)
+
+protection must also consider how to protect backups and copies for DR
+
+**System logs**: are considered important from a legal/compliance perspective, often have sensitive info that needs to be protected
+
+### Disposal
+two primary purposes:
+1. conserve resources
+2. limit liabilities
+
+Length of storage is determined by:
+1. business purpose
+2. compliance
+
+Legal hold data is not subject to normal disposal procedures
