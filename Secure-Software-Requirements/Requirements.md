@@ -44,3 +44,24 @@
 - Adopt secure development frameworks as part of SDLC
 - each function should practice complete error mitigation
 - logging standards for what, where, when
+
+## Operational Requirements
+- enterprise systems need to interact with and function alongside many other systems
+- complete SDLC solution: secure by design, secure by default, secure in deployment
+  - default configuration should be secure
+
+### Deployment environment
+- software is deployed to env that best suits its maintainability, data access, and access to needed services
+- follow corporate standards for seamless interconnectivity
+
+## Requirements Traceability Matrix (RTM)
+- track and manage reqs and implementation details
+- document relationships b/w security reqs, controls, and test/verify efforts
+- predefined reqs for infra, security, data sources, etc for dev teams
+
+## Connecting the dots
+- easiest reqs are the features asked for
+- also need to document implied reqs
+- if the dev team should do something, needs to be listed in project reqs
+
+
