@@ -68,3 +68,16 @@ Elevation of Privilege | Authorization
 - dependencies
 - security functions of deps
 - assumptions documented
+
+## Control Identification and Prioritization
+- prioritize enterprise security controls - it is more efficient (eliminates duplicate efforts)
+- use security of existing protocols (HTTPS, SSH)
+
+## Risk Assessment for Code Reuse
+- using old code/libraries should be scrutinized just like new code
+
+## Documentation
+- threat modeling and attack surface minimization docs can be very valuable if kept up to date
+
+## Design and Architecture Technical Review
+- is the SDL achieving the desired objectives?
