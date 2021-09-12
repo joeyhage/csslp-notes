@@ -58,3 +58,19 @@
   - portability
 
 ### Risk Acceptance
+- properties to consider to stay secure within acceptable limits:
+  - implicit/explicit safety reqs
+  - implicit/explicit security reqs
+  - degree of complexity
+  - performance factors
+  - reliability factors
+- evaluation process should answer two questions
+   1. what is level of certainty of risk (likelihood)? 
+   2. what is anticipated impact (loss)?
+- risk assessment requires detailed knowledge of risks and consequences of software. Included in threat model which is created as part of SDLC
+- **threat picture/situational assessment:** targeted risk assessments that only apply to known vulns at a specific time
+
+## Post-release Activities
+- typically not done by dev team
+- best described as config mgmt
+- first, perform complete audit of installed config
