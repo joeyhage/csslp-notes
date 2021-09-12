@@ -74,3 +74,70 @@
 - typically not done by dev team
 - best described as config mgmt
 - first, perform complete audit of installed config
+
+### Validation and Verification
+- also apply to all stages of software lifecycle
+- activities are documented in the software validation and verification plan (SVVP)
+- **validation**: are we building the correct product? (i.e. meets user reqs)
+- **verification** are we building the product correctly? (i.e. proper software construction)
+- the SVVP should specify administrative reqs for:
+  - anomaly resolution and reporting
+  - exception/deviation policy
+  - baseline and config control procs
+  - standards practices and conventions adopted for guidance
+  - form of relevant docs, including plans, procs, cases, and results
+
+#### Management V&V
+- examine plans, schedules, reqs, methods for assessing suitability
+- supports decisions about corrective actions, allocation of resources, and project scoping
+- support mgmt personnel who are responsible for system
+- discover and report variations from plans/procs
+- may involve the following mgmt roles:
+  - decision maker
+  - review leader
+  - review recorder
+  - mgmt staff
+  - tech staff
+  - customer/user rep
+
+#### Technical V&V
+- eval product, reqs/design docs, code/test/user docs/manuals/release notes, build/install procs
+- does product conform to specs? adhere to regs, standards, and plans? correctly implemented/changed?
+- support customer's/supplier's technical/mgmt personnel
+- discover/report defects and anomalies
+- may involve following mgmt roles:
+  - decision maker
+  - review leader
+  - review recorder
+  - tech staff/tech managers
+  - customer/user tech staff
+- should be scheduled as part of initial project planning
+- ad hoc reviews may also be scheduled
+
+### Independent Testing
+- carried out by disinterested third party so customer and supplier trust integrity
+- often called IV&V (audit)
+- ensure customer/supplier have no influence over findings of testers
+- items that may be audited:
+  - plans
+  - contracts
+  - complaints
+  - procs
+  - reports/docs
+  - source code
+  - deliverables
+- conducted by single person (lead auditor)
+- audit usually not initiated by producer
+- closing meeting report includes:
+  - prelim conclusions
+  - problems
+  - recommendations for remediation
+- once closing report is accepted, final report itemizes:
+  - purpose and scope
+  - name of audited org
+  - software audited
+  - applicable regs/standards
+  - audit eval criteria
+  - observation list classifying anomalies as major/minor
+  - timing of audit follow-up activities
+
