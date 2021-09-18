@@ -1,6 +1,9 @@
 # Ignore artifacts:
 .github
 
-# Ignore all HTML files:
+# Ignore specific file types
 *.json
 *.yml
+
+# Ignore specific files
+README.md
