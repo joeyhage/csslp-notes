@@ -1,0 +1,6 @@
+# Ignore artifacts:
+.github
+
+# Ignore all HTML files:
+*.json
+*.yml

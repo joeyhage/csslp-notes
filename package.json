@@ -1,0 +1,21 @@
+{
+  "name": "csslp-in-bullet-points",
+  "description": "Certified Secure Software Lifecycle Professional summary in bullet points",
+  "private": true,
+  "scripts": {
+    "lint": "npm run lint:md && npm run lint:relative-urls && npm run lint:consistency",
+    "lint:md": "markdownlint **/*.md --ignore node_modules",
+    "lint:relative-urls": "remark . --frail --use remark-validate-links",
+    "lint:external-urls": "remark . --frail --use remark-lint-no-dead-urls",
+    "lint:consistency": "remark . --frail --use remark-preset-lint-consistent",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.28.1",
+    "prettier": "^2.4.1",
+    "remark-cli": "^10.0.0",
+    "remark-lint-no-dead-urls": "^1.1.0",
+    "remark-preset-lint-consistent": "^5.1.0",
+    "remark-validate-links": "^11.0.1"
+  }
+}
