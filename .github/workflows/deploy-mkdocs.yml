@@ -1,0 +1,25 @@
+name: deploy-mkdocs site 
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+       - '.github/workflows/*.yml'
+  workflow-dispatch: 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material mkdocs-literate-nav mkdocs-gen-files
+      - name: Copy Readme
+        run: |
+            cp README.md notes/
+      - name: Remove notes prefix from README links.
+        run: |
+            sed -ire "s;./notes/;;g" notes/README.md
+      - run: mkdocs gh-deploy --force
