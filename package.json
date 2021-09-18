@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "lint": "npm run lint:md && npm run lint:relative-urls && npm run lint:consistency",
-    "lint:md": "markdownlint **/*.md --ignore node_modules",
-    "lint:relative-urls": "remark . --frail --use remark-validate-links",
-    "lint:external-urls": "remark . --frail --use remark-lint-no-dead-urls",
-    "lint:consistency": "remark . --frail --use remark-preset-lint-consistent",
+    "lint:md": "markdownlint notes/**/*.md --ignore node_modules",
+    "lint:relative-urls": "remark notes/**/*.md --frail --use remark-validate-links",
+    "lint:external-urls": "remark notes/**/*.md --frail --use remark-lint-no-dead-urls",
+    "lint:consistency": "remark notes/**/*.md --frail --use remark-preset-lint-consistent",
     "format": "prettier --write ."
   },
   "devDependencies": {
