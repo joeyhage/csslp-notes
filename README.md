@@ -3,19 +3,18 @@
 [![Quality checks status](https://github.com/joeyhage/csslp-notes/workflows/Quality checks/badge.svg)](https://github.com/joeyhage/csslp-notes/actions)
 
 - This repo contains study notes for Certified Secure Software Lifecycle Professional (CSSLP) exam.
-- Good luck & enjoy studying! ☕
-- ✨ Contributions of any kind are welcome!
+- Good luck & enjoy studying! :coffee:
+- Contributions of any kind are welcome!
 
 ## Symbols
 
 - There are some symbols used throughout the documentation: (TODO)
 
-  | Symbol | Description                                        |
-  | :----: | -------------------------------------------------- |
-  |   💡   | Best practice or practical tips                    |
-  |   ❗   | An important limitation, challenge or an exception |
-  |   📝   | Common exam area                                   |
-  |   🤗   | Fact / trivia (most likely unrelated to the exam)  |
+  | Symbol        | Description                                        |
+  | :----:        | -------------------------------------------------- |
+  | :bulb:        | Best practice or practical tips                    |
+  | :exclamation: | An important limitation, challenge or an exception |
+  | :pencil:      | Common exam area                                   |
 
 ## Content
 
@@ -49,5 +48,6 @@
     2. [Secure Software Operations and Maintenance](./notes/07-Software-Deployment-Operations-Maintenance/02-Secure Software Operations and Maintenance.md)
 9. Supply Chain and Software Acquisition
     1. [Supply Chain and Software Acquisition](./notes/08-Supply-Chain-Software-Acquisition/01-Supply Chain and Software Acquisition.md)
+10. [Terms](./notes/09-Terms/Terms.md)
 
 [↑](#content)
