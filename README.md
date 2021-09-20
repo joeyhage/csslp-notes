@@ -48,5 +48,6 @@
     2. [Secure Software Operations and Maintenance](./notes/07-Software-Deployment-Operations-Maintenance/02-Secure Software Operations and Maintenance.md)
 9. Supply Chain and Software Acquisition
     1. [Supply Chain and Software Acquisition](./notes/08-Supply-Chain-Software-Acquisition/01-Supply Chain and Software Acquisition.md)
+10. [Terms](./notes/09-Terms/Terms.md)
 
 [↑](#content)
