@@ -1,6 +1,6 @@
 # Certified Secure Software Lifecycle Professional in bullet points
 
-[![Quality checks status](https://github.com/joeyhage/csslp-notes/workflows/Quality checks/badge.svg)](https://github.com/joeyhage/csslp-notes/actions)
+[![Quality checks status](https://github.com/joeyhage/csslp-notes/workflows/Quality%20checks/badge.svg)](https://github.com/joeyhage/csslp-notes/actions)
 
 - This repo contains study notes for Certified Secure Software Lifecycle Professional (CSSLP) exam.
 - Good luck & enjoy studying! ☕
