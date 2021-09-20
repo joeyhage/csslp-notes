@@ -4,7 +4,7 @@
 
 ### Good Enough Security
 
-Appropriate level of security for any given system. 
+Appropriate level of security for any given system.
 
 ### Least Privilege
 
@@ -64,7 +64,7 @@ Restrict access based on sensitivity of the information in the object and whethe
 
 ### Discretionary Access Control
 
-The owner of an object specifies which subjects have access and what level of access each subject has. 
+The owner of an object specifies which subjects have access and what level of access each subject has.
 ❗ It is optional (discretionary) and requires owner to define access for all objects under its control.
 
 ### Role-based Access Control

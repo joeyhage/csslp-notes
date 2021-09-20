@@ -1,5 +1,37 @@
 site_name: CSSLP-IN-BULLET-POINTS
 
+nav:
+  - 'Home': 'README.md'
+  - 'Secure Software Concepts':
+    - 'General Security Concepts': '01-Secure-Software-Concepts/01-General-Security-Concepts.md'
+    - 'Risk Management': '01-Secure-Software-Concepts/02-Risk-Management.md'
+    - 'Security Policies and Regulations': '01-Secure-Software-Concepts/03-Security-Policies-and-Regulations.md'
+    - 'Software Development Methodologies': '01-Secure-Software-Concepts/04-Software-Development-Methodologies.md'
+  - 'Secure Software Requirements':
+    - 'Policy Decomposition': '02-Secure-Software-Requirements/01-Policy-Decomposition.md'
+    - 'Data Classification and Categorization': '02-Secure-Software-Requirements/02-Data-Classification-and-Categorization.md'
+    - 'Requirements': '02-Secure-Software-Requirements/03-Requirements.md'
+  - 'Secure Software Design':
+    - 'Design Processes': '03-Secure-Software-Design/01-Design-Processes.md'
+    - 'Design Considerations': '03-Secure-Software-Design/02-Design-Considerations.md'
+    - 'Securing Commonly Used Architecture': '03-Secure-Software-Design/03-Securing-Commonly-Used-Architecture.md'
+    - 'Technologies': '03-Secure-Software-Design/04-Technologies.md'
+  - 'Secure Software Implementation/Programming':
+    - 'Common Software Vulnerabilities and Countermeasures': '04-Secure-Software-Implementation-Programming/01-Common-Software-Vulnerabilities-and-Countermeasures.md'
+    - 'Defensive Coding Practices': '04-Secure-Software-Implementation-Programming/02-Defensive-Coding-Practices.md'
+    - 'Secure Software Coding Operations': '04-Secure-Software-Implementation-Programming/03-Secure-Software-Coding-Operations.md'
+  - 'Secure Software Testing':
+    - 'Security Quality Assurance Testing': '05-Secure-Software-Testing/01-Security-Quality-Assurance-Testing.md'
+    - 'Security Testing': '05-Secure-Software-Testing/02-Security-Testing.md'
+  - 'Secure Lifecycle Management':
+    - 'General Security Concepts': '06-Secure-Lifecycle-Management/01-Secure-Lifecycle-Management.md'
+  - 'Software Deployment, Operations, and Maintenance':
+    - 'Secure Software Installation and Deployment': '07-Software-Deployment-Operations-Maintenance/01-Secure-Software-Installation-and-Deployment.md'
+    - 'Secure Software Operations and Maintenance': '07-Software-Deployment-Operations-Maintenance/02-Secure-Software-Operations-and-Maintenance.md'
+  - 'Supply Chain and Software Acquisition':
+    - 'Supply Chain and Software Acquisition': '08-Supply-Chain-Software-Acquisition/01-Supply-Chain-and-Software-Acquisition.md'
+  - 'Terms': '09-Terms/Terms.md'
+
 theme:
   name: material
   language: "en"
@@ -30,7 +62,3 @@ docs_dir: notes
 
 markdown_extensions:
   - mdx_truly_sane_lists
-
-plugins:
-  - literate-nav:
-      nav_file: README.md

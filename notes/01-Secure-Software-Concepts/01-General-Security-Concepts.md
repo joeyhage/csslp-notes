@@ -29,12 +29,14 @@ Although different, they are not necessarily contradictory - but they all requir
 
 - **Determining the _identity_ of a user. A user is authenticated before their authorization can be determined.**
 - To verify identity, a user can provide:
+
   - Something you know - e.g. username/password (not very reliable)
   - Something you have - e.g. token
   - Something about you (something you are) e.g. biometrics
     - ❗ Requires extra hardware, lacks specificity
 
 - New categories
+
   - what users do (dynamic biometrics such as typing patterns, gait)
   - where a user is (physical location)
 
