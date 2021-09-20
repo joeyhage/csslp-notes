@@ -3,19 +3,18 @@
 [![Quality checks status](https://github.com/joeyhage/csslp-notes/workflows/Quality checks/badge.svg)](https://github.com/joeyhage/csslp-notes/actions)
 
 - This repo contains study notes for Certified Secure Software Lifecycle Professional (CSSLP) exam.
-- Good luck & enjoy studying! ☕
-- ✨ Contributions of any kind are welcome!
+- Good luck & enjoy studying! :coffee:
+- Contributions of any kind are welcome!
 
 ## Symbols
 
 - There are some symbols used throughout the documentation: (TODO)
 
-  | Symbol | Description                                        |
-  | :----: | -------------------------------------------------- |
-  |   💡   | Best practice or practical tips                    |
-  |   ❗   | An important limitation, challenge or an exception |
-  |   📝   | Common exam area                                   |
-  |   🤗   | Fact / trivia (most likely unrelated to the exam)  |
+  | Symbol        | Description                                        |
+  | :----:        | -------------------------------------------------- |
+  | :bulb:        | Best practice or practical tips                    |
+  | :exclamation: | An important limitation, challenge or an exception |
+  | :pencil:      | Common exam area                                   |
 
 ## Content
 
