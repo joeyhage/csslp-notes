@@ -4,7 +4,7 @@
 
 ### Security Basics
 
-Determining and applying the appropriate balance of confidentiality, integrity, and availability (CIA)
+:pencil: Determining and applying the appropriate balance of confidentiality, integrity, and availability (CIA)
 
 Although different, they are not necessarily contradictory - but they all require resources (money) and so the balance should be determined early on in the design process
 
@@ -32,9 +32,9 @@ Although different, they are not necessarily contradictory - but they all requir
   - Something you know - e.g. username/password (not very reliable)
   - Something you have - e.g. token
   - Something about you (something you are) e.g. biometrics
-    - Requires extra hardware, lacks specificity
-- New categories
+    - :exclamation: Requires extra hardware, lacks specificity
 
+- New categories
   - what users do (dynamic biometrics such as typing patterns, gait)
   - where a user is (physical location)
 
@@ -44,7 +44,7 @@ Although different, they are not necessarily contradictory - but they all requir
 
 - **Applies predetermined access levels to the user**
 
-1. Three elemends are used:
+1. Three elemends are used
    1. Requestor (subject) - already known due to authentication system
    2. Object
       1. file, program, data, other resource
@@ -328,6 +328,5 @@ Includes mother nature :)
 
 ### Threat Landscape Shift
 
-Around 2005 - criminalization of cyberspace allowing monetization
-
+- Around 2005 - criminalization of cyberspace allowing monetization
 - Market for exploits
