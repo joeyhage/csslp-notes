@@ -4,7 +4,7 @@
 
 ### Security Basics
 
-:pencil: Determining and applying the appropriate balance of confidentiality, integrity, and availability (CIA)
+📝 Determining and applying the appropriate balance of confidentiality, integrity, and availability (CIA)
 
 Although different, they are not necessarily contradictory - but they all require resources (money) and so the balance should be determined early on in the design process
 
@@ -32,7 +32,7 @@ Although different, they are not necessarily contradictory - but they all requir
   - Something you know - e.g. username/password (not very reliable)
   - Something you have - e.g. token
   - Something about you (something you are) e.g. biometrics
-    - :exclamation: Requires extra hardware, lacks specificity
+    - ❗ Requires extra hardware, lacks specificity
 
 - New categories
   - what users do (dynamic biometrics such as typing patterns, gait)

@@ -18,8 +18,7 @@ More than one person needs to be involved for any given task so no single person
 
 A.k.a. layered security or diversity defense.
 
-Software should have multiple layers of defenses that are dissimilar in nature. :exclamation: True goal of security is to make the cost/time/effort of 
-exploiting a system more than it is worth to an adversary.
+Software should have multiple layers of defenses that are dissimilar in nature. ❗ True goal of security is to make the cost/time/effort of exploiting a system more than it is worth to an adversary.
 
 ### Fail-safe
 
@@ -27,8 +26,7 @@ When a system fails, it should fail to a safe state. E.g. explicit deny
 
 ### Economy of Mechanism
 
-Greater system or software complexity generally results in worse security. Troubleshooting issues gets more difficult the more complex something is. 
-This also includes turning off/disabling protocols and services that are not needed.
+Greater system or software complexity generally results in worse security. Troubleshooting issues gets more difficult the more complex something is. This also includes turning off/disabling protocols and services that are not needed.
 
 ### Complete Mediation
 
@@ -36,7 +34,7 @@ When a subject is authorized, verification should occur every time access to an 
 
 ### Open Design
 
-:exclamation: Security by obscurity does not provide actual security!
+❗ Security by obscurity does not provide actual security!
 
 ### Least Common Mechanism
 
@@ -44,7 +42,7 @@ Multiple, different processes that share common mechanisms can lead to inadverte
 
 ### Leverage Existing Components
 
-Reuse components so the attack surface of a system is reduced. :exclamation: This often results in a larger footprint when errors occur.
+Reuse components so the attack surface of a system is reduced. ❗ This often results in a larger footprint when errors occur.
 
 ### Psychological Acceptability
 
@@ -67,7 +65,7 @@ Restrict access based on sensitivity of the information in the object and whethe
 ### Discretionary Access Control
 
 The owner of an object specifies which subjects have access and what level of access each subject has. 
-:exclamation: It is optional (discretionary) and requires owner to define access for all objects under its control.
+❗ It is optional (discretionary) and requires owner to define access for all objects under its control.
 
 ### Role-based Access Control
 
