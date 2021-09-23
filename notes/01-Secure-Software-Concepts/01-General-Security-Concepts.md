@@ -232,8 +232,9 @@ pretty common for active directory
 
 - Depending on type of information, can be just as important or more important than confidentiality. e.g. stock prices (public but integrity is crucial)
 
-#### Bibi Integrity Model
+#### Biba Integrity Model
 
+- Preserves information integrity
 - Integrity levels separate permissions
 - Low water mark policy, i.e. no-write-up rule
   - lower integrity subjects can't write up to higher integrity subjects
@@ -249,9 +250,9 @@ pretty common for active directory
 - Two types of processes:
   - Integrity verification processes (IVPs)
     - Ensure CDI data meets contraints
-- Transformation processes (TPs)
-  - Change state of data from one to another
-  - Data can only be changed by trusted TPs, not users
+  - Transformation processes (TPs)
+    - Change state of data from one to another
+    - Data can only be changed by trusted TPs, not users
 
 Example:
 

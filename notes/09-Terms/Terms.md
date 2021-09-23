@@ -83,26 +83,82 @@ Grant access based on attributes associated with the subject.
 
 Subjects can only read objects they are authorized to read.
 
-## Qualitative risk assessment
+## Risk Management Terms
+
+### Risk
+
+Possibility of suffering harm/loss
+
+### Inherent risk
+
+product of likelihood and impact prior to implementing controls
+
+### Residual risk
+
+Remaining risk after control is utilized. Residual risk is owned by the entity
+
+### Total risk
+
+Sum of all risks associated with an asset, process, or even a business
+
+### Risk management
+
+Decision-making process of identifying threats and vulnerabilities, potential impacts, determining costs to mitigate, and deciding what actions are cost-effective
+
+### Risk assessment (risk analysis)
+
+Analyze environment to identify threats and vulnerabilities and mitigating actions to determine impact of an event
+
+### Asset
+
+Any resource or information an org needs to conduct business
+
+### Vulnerability
+
+Any characteristic of an asset that can be exploited by a threat to cause harm
+
+### Attack
+
+Attempting to perform undesired or unauthorized activities via a vulnerability
+
+### Impact
+
+Resulting loss when a threat exploits a vulnerability
+
+### Threat
+
+Any circumstance or event with the potential to cause harm to an asset
+
+### Mitigate
+
+An action taken to reduce the likelihood of a threat occuring
+
+### Control (a.k.a. countermeasure or safeguard)
+
+A measure taken to detect, prevent, or mitigate the risk associated with a threat.
+
+### Qualitative risk assessment
 
 Subjectively determine impact of an event - involves experts and group consensus
 
-## Quantitative risk assessment
+## Quantitative Terms
+
+### Quantitative risk assessment
 
 Objectively determine impact of an event - involves use of metrics and models
 
-## Single loss expectancy (SLE)
+### Single loss expectancy (SLE)
 
 monetary loss or impact of each occurrence of a threat
 
-## Exposure factor
+### Exposure factor
 
 measure of magnitude of loss of an asset, used to calculate SLE
 
-## Annualized rate of occurrence (ARO)
+### Annualized rate of occurrence (ARO)
 
 how many times expected to occur annually
 
-## Annualized loss expectancy (ALE)
+### Annualized loss expectancy (ALE)
 
 how much an event is expected to cost per year

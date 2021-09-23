@@ -13,7 +13,7 @@
 - design and execution of tests is normally defined in the contract
 - **goal**: smallest # of test cases to sufficiently affirm quality and security of product
 
-#### seven things
+#### Testing plan components
 
 1. required features to test
 2. requisite load limits

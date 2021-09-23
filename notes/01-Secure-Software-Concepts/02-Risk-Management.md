@@ -51,13 +51,20 @@ Examples:
 ### Risk controls
 
 - best method for managing risk
-- Understanding environment and applying controls should be owned by development team
+- 📝 Understanding environment and risk and applying controls should be owned by development team
 
 Three classes:
 
 1. Administrative
 2. Technical
 3. Physical
+
+For each class, there are four types of controls
+
+1. Preventative
+2. Detective
+3. Corrective
+4. Compensating
 
 #### Preventative
 
