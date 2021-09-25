@@ -5,6 +5,7 @@
 ## FISMA
 
 - **Federal Information Security Management Act of 2002**
+- 📝 Primary governing law for federal computer systems
 
 - Requires each federal agency to implement a security program
 - NIST (National Institute of Standards and Technology) developed guidelines
@@ -97,9 +98,9 @@ Applies to PIN Entry Devices (PEDs)
 
 ## Privacy
 
-To obtain certain goods, users must consent to share certain information
-
-One main issue with privacy is data disposition
+- To obtain certain goods, users must consent to share certain information
+- One main issue with privacy is data disposition
+- 📝 founded on notice, choice, and security
 
 ### Privacy Policy
 
@@ -324,6 +325,14 @@ Using some kind of process-based lifecycle results in greater security
 - Three primary areas: product/service dvlpmnt, service establishment/mgmt, product/service acquisition
 - **framework for business process improvement**: improving operational processes
 
+##### Process Maturity Levels 📝
+
+1. **Initial:** uncontrolled, results unpredictable
+2. **Managed:** established, typically reactive
+3. **Defined:** characterized for org, proactive
+4. **Quantitatively Managed:** measured and controlled
+5. **Optimizing:** process improvement
+
 #### OWASP - already familiar with :)
 
 #### OCTAVE - Operationally Critical Threat, Asset, and Vulnerability Evauluation
@@ -362,7 +371,7 @@ Using some kind of process-based lifecycle results in greater security
 
 - access control methodology
 - mediates interaction between subjects/objects
-- three qualities are req:
+- 📝 three qualities are req:
   - no path around it, always invoked (complete mediation)
   - tamper-proof
   - small enough to be verifiable

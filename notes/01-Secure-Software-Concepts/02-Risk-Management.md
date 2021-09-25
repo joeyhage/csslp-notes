@@ -50,7 +50,7 @@ Examples:
 
 ### Risk controls
 
-- best method for managing risk
+- 📝 best method for managing risk in software
 - 📝 Understanding environment and risk and applying controls should be owned by development team
 
 Three classes:
@@ -141,15 +141,15 @@ key info:
 
 ### Single loss expectancy (SLE)
 
-- SLE = asset value \* (exposure factor or duration)
+📝 SLE = asset value \* (exposure factor or duration)
 
 ### Annualized rate of occurrence (ARO)
 
-ARO = number of events / number of years covered
+📝 ARO = number of events / number of years covered
 
 ### Annualized loss expectancy (ALE)
 
-ALE = SLE \* ARO
+📝 ALE = SLE \* ARO
 
 ## Residual Risk Model
 
@@ -165,8 +165,8 @@ Example:
 
 ### ROI
 
-- ROI % = (avoided loss - control cost) / control cost \* 100
-- ROI time = avoided annual loss / annual control cost
+- 📝 ROI % = (avoided loss - control cost) / control cost \* 100
+- 📝 ROI time = avoided annual loss / annual control cost
 
 ## Governance, Risk, and Compliance
 

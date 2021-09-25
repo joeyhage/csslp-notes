@@ -35,7 +35,7 @@
 ### Bug tracking
 
 - sometimes, bugs can be exploited and result in a potential security bug
-- DREAD (1-10 scale)
+- 📝 DREAD (1-10 scale)
   - Risk = Impact \* Probability
     - Impact = Damage (in terms of CIA) and Affected Users (quantity)
     - Probability = Reproducibility (difficulty/scriptable?), Exploitability (attack difficulty), discoverability (difficulty to find)
@@ -50,7 +50,7 @@
 - best performed during design phase
 - focused on how data moves through app
 - Threat model needs to include: app as a whole, security/privacy features, features that have security/privacy implications when they fail, features that cross trust boundaries
-- STRIDE (spoofing, tampering, repudiation, info disclosure, DoS, elevation of privilege)
+- 📝 STRIDE (spoofing, tampering, repudiation, info disclosure, DoS, elevation of privilege)
 - Threat trees - graphical representation of what needs to exist for a threat to be realized (uses logical AND/OR)
 
 ### Fuzzing
