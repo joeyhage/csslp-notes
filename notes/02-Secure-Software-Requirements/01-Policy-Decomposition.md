@@ -1,10 +1,10 @@
 # Policy Decomposition
 
-## Computer Security Policies
+## NIST Computer Security Policies 📝
 
-1. program policies: foundational for infosec program
-2. issue-specific policies: specific issues such as PII or data retention
-3. system-specific policies: technical directives such as firewall rules
+1. **program policies:** foundational for infosec program
+2. **issue-specific policies:** specific issues such as PII or data retention
+3. **system-specific policies:** technical directives such as firewall rules
 
 Regulations and government directives are also sources of security requirements
 
@@ -25,7 +25,7 @@ Regulations and government directives are also sources of security requirements
 ### Availability
 
 - available to authorized users when needed
-- deny unauthorized
+- deny unauthorized/illegitimate access
 - prevent DoS
 
 ## Authentication, Authorization, and Auditing Requirements
@@ -42,8 +42,14 @@ Authentication Requirements:
 - method of authentication
 - strength of authentication
 
-- Most authentication is one party authenticating the other (bank auth. account holder)
-- Sometime mutual authentication is used (both parties authenticating each other simultaneously) to prevent MITM attacks
+📝 Three general authentication factors
+
+1. Something you know
+2. Something you have
+3. Something you are
+
+- 📝 Most authentication is one party authenticating the other (bank auth. account holder)
+- 📝 Sometime mutual authentication is used (both parties authenticating each other simultaneously) to prevent MITM attacks
 
 ### Access Control Mechanisms
 
@@ -80,11 +86,11 @@ Authentication Requirements:
 
 #### risk based issues
 
-three forms of audit related risk:
+📝 audit related risk:
 
-- **inherent risk**: inherent error rate before controls
-- **detection risk**: risk audit will not detect it
-- **control risk**: risk that controls will not detect or prevent in a timely fashion
+1. **inherent risk**: inherent error rate before controls
+2. **detection risk**: audit will not detect it
+3. **control risk**: controls will not detect or prevent in a timely fashion
 
 #### Orghanizational characteristics
 
