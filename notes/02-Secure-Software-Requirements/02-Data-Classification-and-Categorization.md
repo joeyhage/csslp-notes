@@ -39,11 +39,9 @@ Sensitivity categories
 
 ### Data Risk Impact
 
-labeled according to risk if lost (high, medium, low)
-
+- 📝 labeled according to risk if lost (high, medium, low)
 - will differ from firm to firm
-
-impact considerations include cost, operation impact, and people impact
+- 📝 impact considerations include cost, operation impact, people impact, customer impact
 
 ## Data ownership
 
@@ -56,14 +54,14 @@ impact considerations include cost, operation impact, and people impact
 - acts in the interests of the enterprise
 - determines who has what access
 - owner != custodian (e.g. CFO owns accounting records but DBA can make direct changes)
-- owner defines classification, authorization, and security controls
+- 📝 data owners define data classification, authorized users, access criteria, and security controls
 
 ### Custodian
 
 - ensure processes safely transport, manipulate, and store data
 - ensure data management processes (set by owner) are followed
-- perform backups, data retention, disposal
-- manage anything else (e.g. security controls) defined by owner
+- 📝 perform backups, data retention, disposal
+- 📝 manage anything else (e.g. security controls) defined by owner
 - custodians may not need read access
 
 ## Labeling
@@ -77,7 +75,7 @@ impact considerations include cost, operation impact, and people impact
 - wider concern than sensitivity
 - includes loss, disclosure, and alteration
 - three levels (high, medium or moderate, low) - each level should be clearly defined
-- NIST FIPS 199 and SP 800-18 provide framework for classifying based on CIA
+- 📝 NIST FIPS 199 and SP 800-18 provide framework for classifying based on CIA
 
 #### Clearly Definining levels
 
@@ -89,8 +87,8 @@ impact considerations include cost, operation impact, and people impact
 ### Structured
 
 - has a defined structure that can be parsed, sorted, searched
-- is not determined by where it is stored, but how
-- look for relationships between data elements
+- 📝 is not determined by where it is stored, but how
+  - 📝 look for relationships between data elements
 
 examples:
 
@@ -130,12 +128,12 @@ protection must also consider how to protect backups and copies for DR
 
 ### Disposal
 
-two primary purposes:
+primary purposes of disposal:
 
 1. conserve resources
 2. limit liabilities
 
-Length of storage is determined by:
+📝 Length of storage is determined by:
 
 1. business purpose
 2. compliance

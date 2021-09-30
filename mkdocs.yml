@@ -31,6 +31,7 @@ nav:
   - 'Supply Chain and Software Acquisition':
     - 'Supply Chain and Software Acquisition': '08-Supply-Chain-Software-Acquisition/01-Supply-Chain-and-Software-Acquisition.md'
   - 'Terms': '09-Terms/Terms.md'
+  - 'Review': '10-Review/Review.md'
 
 theme:
   name: material
