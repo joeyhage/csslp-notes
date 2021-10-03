@@ -28,7 +28,7 @@
 
 ### Use cases
 
-- a specific example of an intended behavior of the system, usually for complex/confusing/amiguous situations
+- a specific example of an intended behavior of the system, usually for complex/confusing/ambiguous situations
 - not intended for all subject-object interactions
 - not a substitute for documenting specific reqs
 - 📝 graphical format that shows intended behavior (ellipses) for actors (stick figures)
@@ -66,7 +66,7 @@
 ### Deployment environment
 
 - software is deployed to env that best suits its maintainability, data access, and access to needed services
-- follow corporate standards for seamless interconnectivity
+- follow corporate standards for seamless inter-connectivity
 
 ## Requirements Traceability Matrix (RTM)
 

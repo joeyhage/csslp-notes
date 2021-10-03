@@ -92,7 +92,7 @@ Authentication Requirements:
 2. **detection risk**: audit will not detect it
 3. **control risk**: controls will not detect or prevent in a timely fashion
 
-#### Orghanizational characteristics
+#### Organizational characteristics
 
 Examples:
 

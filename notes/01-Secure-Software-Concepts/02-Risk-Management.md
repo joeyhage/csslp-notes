@@ -198,8 +198,8 @@ Two key legal issues with significant risk
    1. includes classification
 2. Threat assessment
    1. threats and vulnerabilities for each asset
-   2. likelihood of occurence
-3. Impact determination and quanitification
+   2. likelihood of occurrence
+3. Impact determination and quantification
    1. Tangible: financial loss, physical damage
    2. Intangible: reputation
 4. Control design and evaluation

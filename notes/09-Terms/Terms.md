@@ -131,7 +131,7 @@ Any circumstance or event with the potential to cause harm to an asset
 
 ### Mitigate
 
-An action taken to reduce the likelihood of a threat occuring
+An action taken to reduce the likelihood of a threat occurring
 
 ### Control (a.k.a. countermeasure or safeguard)
 

@@ -77,7 +77,7 @@ Sensitivity categories
 - three levels (high, medium or moderate, low) - each level should be clearly defined
 - 📝 NIST FIPS 199 and SP 800-18 provide framework for classifying based on CIA
 
-#### Clearly Definining levels
+#### Clearly Defining levels
 
 - high: set high enough that a small number of data elements are included
 - financial limits and customer impact vary, each company needs to decide for itself

@@ -86,9 +86,9 @@ Standard Techniques:
 - based on manufacturing design - each step completed before next step
 - linear, sequential, no repeating
 - useful for small pieces (incorporated into spiral/agile methods)
-- nonworkable in practice
+- non-workable in practice
 
-### Sprial
+### Spiral
 
 - iterative, steps can be repeated iteratively
 - things are built incrementally
@@ -129,7 +129,7 @@ Standard Techniques:
 - end-user control: enable end-user to make informed decisions about data collected, stored, shared
 - only collect and retain required info
 - use encryption to mitigate data loss issues
-  - modular fasion in case it needs to be changed
+  - modular fashion in case it needs to be changed
   - proper crypto libraries/functions
   - proper key protection/rotation
 

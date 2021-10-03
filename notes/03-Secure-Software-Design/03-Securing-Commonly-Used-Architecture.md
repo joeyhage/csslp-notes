@@ -20,7 +20,7 @@
 ### Message Queuing
 
 - helps manage throughput and guarantee delivery
-- can also help with logging, security, and poiint to multipoint
+- can also help with logging, security, and point to multi-point
 
 ## Service-Oriented Architecture (SOA)
 
@@ -54,7 +54,7 @@
 
 #### JSON
 
-#### Universal Description, Discovery, and Interace (UDDI)
+#### Universal Description, Discovery, and Integration (UDDI)
 
 - universal, platform-independent
 - dynamically discover and invoke web services
@@ -73,7 +73,7 @@
 
 - consequence of architectural decision that there is no distinction between code and data
 
-## Pervasive/Uniquitous Computing
+## Pervasive/Ubiquitous Computing
 
 - IOT - seldom have security capabilities
 - each element/device of the system needs to be self-sufficient and self-reliant for security, safety, and stability

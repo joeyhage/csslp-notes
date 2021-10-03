@@ -57,7 +57,7 @@
 - standard best practice mitigations:
   - lock down env
   - establish/maintain control of inputs
-  - establish/maintain controol of outputs
+  - establish/maintain control of outputs
   - assume external components can be undermined
   - assume code can be read by anyone
   - use libraries and frameworks that avoid introducing weaknesses

@@ -13,7 +13,7 @@
 
 - typically authentication system is the underlying operating system aspect, not a third party application
 - integrates with AuthZ system once successful
-- Federated ID systems allow connection to systems through known systesm (Facebook, Microsoft, etc)
+- Federated ID systems allow connection to systems through known system (Facebook, Microsoft, etc)
   - Relying party (RP) and Identity Provider (IdP)
 
 ## Credential Management
@@ -106,7 +106,7 @@
 ### TPM (trusted platform module)
 
 - hardware implementation of cryptographic functions on motherboard
-- level of security deeper than OS and virtually tamperproof
+- level of security deeper than OS and virtually tamper-proof
 - controversy: could secure machine from owner or regulate permitted software
 
 ### Malware
@@ -155,10 +155,10 @@
 
 - faster execution
 
-#### two subprocesses
+#### two sub-processes
 
 1. **compiling**: convert source code into processor-specific codes
-2. **linking**: connect libraries, dependenchy files, resources
+2. **linking**: connect libraries, dependency files, resources
    1. static linking: increased executable size, everything is copied into it
    2. dynamic linking: place names and locations of dependencies which are resolved at runtime
       1. creates risk for hijacked dependent programs
@@ -191,22 +191,22 @@
 ### Sandboxing
 
 - isolate code from direct contact with target system
-- execute untrusted code, code from guests, unverified programs
+- execute un-trusted code, code from guests, unverified programs
 - operate like a VM
 - protection depends on level of isolation and mediation
 
-### Managed vs Unmanaged code
+### Managed vs Un-managed code
 
 #### Managed
 
 - executed in a intermediate system that has controls (Java, .NET)
 
-#### Umanaged
+#### Un-managed
 
 - executed directly on target
 - compiled for specific system
 - significant performance advantages but things like memory, type safety, garbage collection, need to be managed by developer
-- unmanaged is more prone to risks
+- un-managed is more prone to risks
 
 ## OS
 

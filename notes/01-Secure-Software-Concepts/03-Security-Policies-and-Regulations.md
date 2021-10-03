@@ -73,7 +73,7 @@ Applies to PIN Entry Devices (PEDs)
 1. Patents
    1. Exclusive right for a specified time
    2. protect rights in exchange for disclosure of invention
-   3. Varies by country but in the US, invention must be new, useful, and nonobvious
+   3. Varies by country but in the US, invention must be new, useful, and non-obvious
    4. Prevent others from using invention
    5. Patent must be applied for prior to disclosure
    6. challenging and expensive
@@ -114,7 +114,7 @@ In financial sector, Gramm-Leach-Bliley Act mandates firms clearly state how inf
 
 ### PHI (Personal Health Information / Protected Health Information)
 
-Highly valued by cybercriminals
+Highly valued by cyber criminals
 
 ### Breach notifications
 
@@ -275,17 +275,17 @@ Published by ISACA (Information Systems Audit and Control Association)
 1. Meeting stakeholder needs
 2. covering the enterprise end to end
 3. applying a single, integrated frmwrk
-4. enableing a holistic apprch
+4. enabling a holistic apprch
 5. separating governance from mgmt
 
-#### COSO - Committee of Sponsoring Organizations of the Treadway Commition
+#### COSO - Committee of Sponsoring Organizations of the Treadway Commission
 
-- five private-sector orgs in response to Treadway Commisions report on fraudulent financial reporting
+- five private-sector orgs in response to Treadway Commissions report on fraudulent financial reporting
 - Enterprise Risk mgmt integrated frmwrk to assess control systems
 - five components/principles
   - control env
   - risk assmnt
-  - cntrl activities
+  - ctrl activities
   - info and communication
   - monitoring
 
@@ -338,7 +338,7 @@ Using some kind of process-based lifecycle results in greater security
 #### OCTAVE - Operationally Critical Threat, Asset, and Vulnerability Evauluation
 
 - tools, techniques, methods for risk-based infosec assmnt
-- Three phases: build asset-based threat profiles, identify infra vulns, dvlp security stratgy
+- Three phases: build asset-based threat profiles, identify infra vulns, dvlp security strategy
 
 #### BSI - Build Security In
 
@@ -419,4 +419,4 @@ Terms:
 
 ### Contractual Terms and SLAs
 
-- should include references to security cntrls/standards
+- should include references to security ctrls/standards

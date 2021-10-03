@@ -52,7 +52,7 @@
 | ---------------------- | ----------------- |
 | Spoofing               | Authentication    |
 | Tampering              | Integrity         |
-| Repudiation            | Nonrepudiation    |
+| Repudiation            | Non-repudiation   |
 | Information Disclosure | Confidentiality   |
 | Denial of Service      | Availability      |
 | Elevation of Privilege | Authorization     |

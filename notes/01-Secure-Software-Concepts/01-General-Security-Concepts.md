@@ -46,7 +46,7 @@ Although different, they are not necessarily contradictory - but they all requir
 
 - **Applies predetermined access levels to the user**
 
-1. Three elemends are used
+1. Three elements are used
    1. Requestor (subject) - already known due to authentication system
    2. Object
       1. file, program, data, other resource
@@ -65,8 +65,8 @@ Although different, they are not necessarily contradictory - but they all requir
   - verification of existence and operation of specific controls
   - etc
 
-- Auditing takes resources to create, store, and review. Typically defaulted to minimal level so system operator must detemine correct level based on system criticality.
-- **System criticality** is determed by information criticality associated with information manipulated/stored with the system
+- Auditing takes resources to create, store, and review. Typically defaulted to minimal level so system operator must determine correct level based on system criticality.
+- **System criticality** is determined by information criticality associated with information manipulated/stored with the system
 
 #### Non-repudiation
 
@@ -84,7 +84,7 @@ Although different, they are not necessarily contradictory - but they all requir
   - Prevents unauthorized packets and session hijacking
   - Has overhead
 - UDP (User Datagram Protocol)
-  - connectionless/sessionles
+  - connectionless/sessionless
 
 #### Exception Management
 
@@ -117,7 +117,7 @@ Although different, they are not necessarily contradictory - but they all requir
 - i.e. layered security/defense and diversity defense
 - Multiple, overlapping defenses
 - No system is 100% secure - **true goal of security is to make cost of compromising greater in time/effort/resources than it is worth**
-- Diversity of defense - layers should be dissimalr in nature
+- Diversity of defense - layers should be dissimilar in nature
 
 #### Fail-safe
 
@@ -200,7 +200,7 @@ pretty common for active directory
 #### Access control matrix model
 
 - strength: simplicity
-- weakness: difficult to implement due to no contraints, doesn't scale well
+- weakness: difficult to implement due to no constraints, doesn't scale well
 
 #### ABAC - attribute-based access control
 
@@ -249,7 +249,7 @@ pretty common for active directory
 - Unconstrained data items (UDI)
 - Two types of processes:
   - Integrity verification processes (IVPs)
-    - Ensure CDI data meets contraints
+    - Ensure CDI data meets constraints
   - Transformation processes (TPs)
     - Change state of data from one to another
     - Data can only be changed by trusted TPs, not users
@@ -299,7 +299,7 @@ Standards, guidelines, best practices
 5 main categories:
 
 1. Identify
-2. Proect
+2. Protect
 3. Detect
 4. Respond
 5. Recover

@@ -21,12 +21,12 @@
 - controls update and delete
 - first aspect is applying controls (e.g. ACLs)
 - second aspect (just as important) is determining if data _has_ been altered
-  - digests should be stored and transmittted separately
+  - digests should be stored and transmitted separately
 
 #### Availability
 
 - system is available to _authorized_ users when appropriate
-- many options including backups, data replication, failovers
+- many options including backups, data replication, fail-overs
   - just need to determine the need and write a requirement
 
 ### Authentication, Authorization, and Auditing
@@ -106,7 +106,7 @@
 
 ### Weakest Link
 
-- analyze local and system views of an applicaiton
+- analyze local and system views of an application
 - prevent local errors from becoming system failures
 
 ### Leverage Existing Components
@@ -118,7 +118,7 @@
 
 - single failure should not result in a system failure
 
-## Interconnectivity
+## Inter-connectivity
 
 ### Session Management
 
