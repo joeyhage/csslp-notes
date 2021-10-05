@@ -105,7 +105,7 @@
 ### Problem management
 
 - Type: corrective, improvement, preventative, adaptive action that might be required
-- Scope: modification size, cost, time 
+- Scope: modification size, cost, time
 - Criticality: impact of change on performance, safety, security of org
 
 ### Change management
@@ -131,3 +131,8 @@
 - high level of automation
 
 ## Secure Software Disposal
+
+- old systems retain information even after disposed of
+  - need to ensure information is secured
+- software/system can only be retired at request of owner
+- 📝 end-of-life policies should include criteria, notice of hardware/software being discontinued/replaced, duration of support for tech difficulties from date of sale and how long after EOL is published

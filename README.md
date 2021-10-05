@@ -48,5 +48,6 @@
 8. Supply Chain and Software Acquisition
    1. [Supply Chain and Software Acquisition](./notes/08-Supply-Chain-Software-Acquisition/01-Supply-Chain-and-Software-Acquisition.md)
 9. [Terms](./notes/09-Terms/Terms.md)
+10. [Review](./notes/10-Review/Review.md)
 
 [↑](#content)

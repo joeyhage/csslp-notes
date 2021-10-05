@@ -162,3 +162,17 @@ how many times expected to occur annually
 ### Annualized loss expectancy (ALE)
 
 how much an event is expected to cost per year
+
+## Supply Chain Terms
+
+### COTS
+
+commercial off the shelf
+
+### ICT
+
+information and communications technology
+
+### TOE
+
+target of evaluation

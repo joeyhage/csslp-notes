@@ -5,6 +5,8 @@
         "exfiltration",
         "exploitability",
         "Lifecyle",
-        "mitigations"
+        "mitigations",
+        "prequalification",
+        "reputational"
     ]
 }
