@@ -100,8 +100,46 @@
 
 ## Supplier Sourcing
 
+- consider what subcontracts will and won't be allowed to do
+- consider foreign influence (orgs/nation-states not friendly to US)
+- rank bids on risk vs return score
+
+Security Tradeoffs
+
+- strategic improvement vs maintenance
+  - changes/modernization can increase security risk
+- high vs low risk
+  - high risk is not necessarily bad - just needs to be managed and balanced
+  - org can only take on so much risk at one time
+- impact of one supplier on another
+  - every new supplier will likely affect and/or be affected by current supply chain
+- opportunity costs
+  - large current investment could delay better, future opportunities
+
+### Managed services
+
+- involve continuous customer-supplier interaction
+- need to be continuously checked
+
+### Service level agreements
+
+- legal binding agreement regarding required level of performance
+- rules of SLAs:
+  - describe product/service functions in sufficient detail
+  - clear means of determining if level of performance was met
+- normally addresses:
+  - usage
+  - ownership
+  - warranty
+  - licensing rights
+  - etc
+
 ## Software Development and Testing
 
+- security testing controls evaluate technical, process, and resource risks
+
 ## Software Delivery, Operations, and Maintenance
+
+- software authenticity requires controls to ensure non-repudiation of origin
 
 ## Supplier Transitioning
