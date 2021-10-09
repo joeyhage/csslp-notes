@@ -176,3 +176,9 @@ information and communications technology
 ### TOE
 
 target of evaluation
+
+## Secure Software Supply Chain Terms
+
+### Provenance
+
+- origin and license of third-party components used in software

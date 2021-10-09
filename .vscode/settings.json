@@ -4,8 +4,9 @@
         "discoverability",
         "exfiltration",
         "exploitability",
-        "Lifecyle",
+        "lifecyle",
         "mitigations",
+        "nonrepudiation",
         "prequalification",
         "reputational"
     ]

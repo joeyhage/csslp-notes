@@ -84,7 +84,7 @@ Although different, they are not necessarily contradictory - but they all requir
   - Prevents unauthorized packets and session hijacking
   - Has overhead
 - UDP (User Datagram Protocol)
-  - connectionless/sessionless
+  - connection-less/session-less
 
 #### Exception Management
 
