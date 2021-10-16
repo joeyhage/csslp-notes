@@ -6,6 +6,10 @@
 
 - customer determines if software meets acceptance criteria
 - assess contract, standard, and legal reqs under both normal and abnormal conditions
+- **cumulative failure profile**
+  - plot cumulative failures vs suitable time base
+  - most appropriately applied during acceptance phase
+  - negative slope indicates increasing reliability
 
 ### Qualification Testing Plan
 

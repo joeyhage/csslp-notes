@@ -107,7 +107,8 @@ Decision-making process of identifying threats and vulnerabilities, potential im
 
 ### Risk assessment (risk analysis)
 
-Analyze environment to identify threats and vulnerabilities and mitigating actions to determine impact of an event
+- Analyze environment to identify threats and vulnerabilities and mitigating actions to determine impact of an event
+- include specific threats, risk/impact for each threat, relationship between assets
 
 ### Asset
 
@@ -177,8 +178,20 @@ information and communications technology
 
 target of evaluation
 
+## Secure Software Testing
+
+### Entropy
+
+randomness collected by an OS or application for use in cryptography. High entropy results in a random number being generated with more randomness (e.g. not related to date/time) 
+
+## Secure Software Lifecycle Management
+
+### Cumulative failure profile
+
+graphical method used to predict reliability, estimate additional testing time, identify modules/subsystems that require additional testing
+
 ## Secure Software Supply Chain Terms
 
 ### Provenance
 
-- origin and license of third-party components used in software
+origin and license of third-party components used in software

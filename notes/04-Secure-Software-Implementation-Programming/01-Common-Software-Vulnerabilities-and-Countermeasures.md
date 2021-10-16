@@ -1,5 +1,7 @@
 # Common Software Vulnerabilities and Countermeasures
 
+- screening code for disallowed functions is best performed by static testing
+
 ## CWE (Common Weakness Enumerations)/SANS Top 25 Vuln Categories
 
 - hasn't been updated since 2011 but still relevant

@@ -53,6 +53,8 @@
 
 ## Secure Design Principles
 
+- security designer uses information from attack surface analysis and threat model
+
 ### Good Enough Security
 
 - security should match risk associated with potential vulnerability

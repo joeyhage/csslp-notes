@@ -136,7 +136,7 @@ Security Tradeoffs
 
 ## Software Development and Testing
 
-- security testing controls evaluate technical, process, and resource risks
+- security testing controls evaluate technical, process, and resource/operational risks
 
 ## Software Delivery, Operations, and Maintenance
 

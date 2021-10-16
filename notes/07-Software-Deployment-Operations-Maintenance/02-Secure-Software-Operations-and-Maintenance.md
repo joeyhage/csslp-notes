@@ -83,6 +83,7 @@
 #### Responding to active incidents
 
 - incident response team handles and supervises patch/change to target system
+- incident response process should be strategically planned and have flexibility in execution
 
 #### Establishing a structured response
 

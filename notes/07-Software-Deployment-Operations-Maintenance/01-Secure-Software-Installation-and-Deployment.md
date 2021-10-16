@@ -36,6 +36,7 @@ Three separate roles
 ### Configuration Management Plan
 
 - should specify change management, baseline management, and verification management roles
+- versioning, backup, check-in/check-out processes, change control
 
 ### Configuration Management Process
 
