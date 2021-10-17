@@ -3,7 +3,7 @@ name: Quality checks
 on:
   push:
     paths-ignore:
-      - ".github/workflows/*.yml"
+      - '**.yml'
   workflow_dispatch:
 
 jobs:
