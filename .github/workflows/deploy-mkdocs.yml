@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - ".github/workflows/*.yml"
+      - '**.yml'
   workflow_dispatch:
 
 jobs:
