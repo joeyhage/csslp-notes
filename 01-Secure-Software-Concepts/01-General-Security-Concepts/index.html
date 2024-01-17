@@ -1,0 +1,2647 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../02-Risk-Management/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.4">
+    
+    
+      
+        <title>General Security Concepts - CSSLP-IN-BULLET-POINTS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Barlow";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general-security-concepts" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CSSLP-IN-BULLET-POINTS" class="md-header__button md-logo" aria-label="CSSLP-IN-BULLET-POINTS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CSSLP-IN-BULLET-POINTS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              General Security Concepts
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CSSLP-IN-BULLET-POINTS" class="md-nav__button md-logo" aria-label="CSSLP-IN-BULLET-POINTS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    CSSLP-IN-BULLET-POINTS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Secure Software Concepts
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Secure Software Concepts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    General Security Concepts
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    General Security Concepts
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#security-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security Basics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#confidentiality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confidentiality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Availability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authentication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authorization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authorization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accounting-auditing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accounting (Auditing)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-repudiation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Non-repudiation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-tenets" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Tenets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="System Tenets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#session-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Session Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exception-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exception Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secure-design-tenets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secure Design Tenets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Secure Design Tenets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#good-enough-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good Enough Security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#least-privilege" class="md-nav__link">
+    <span class="md-ellipsis">
+      Least Privilege
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#separation-of-duties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Separation of Duties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defense-in-depth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defense in Depth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fail-safe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fail-safe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#economy-of-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Economy of Mechanism
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complete-mediation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complete Mediation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#least-common-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Least Common Mechanism
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psychological-acceptability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Psychological Acceptability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weakest-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weakest Link
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leveraging-existing-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Leveraging Existing Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-point-of-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single Point of Failure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-control-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access Control Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Access Control Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acl-access-control-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      ACL - access control list
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mac-mandatory-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      MAC - mandatory access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dac-discretionary-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      DAC - discretionary access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rbac-role-based-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      RBAC - role-based access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rbac-rule-based-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      RBAC - rule-based access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-control-matrix-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access control matrix model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abac-attribute-based-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      ABAC - attribute-based access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bell-lapadula-confidentiality-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bell-LaPadula Confidentiality Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#take-grant-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Take-Grant Model
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multilevel-security-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multilevel Security Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrity Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrity Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#biba-integrity-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Biba Integrity Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clark-wilson-security-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clark-Wilson security model
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-flow-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information Flow Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Information Flow Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brewer-nash-model-chinese-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brewer-Nash Model (Chinese Wall)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-flow-diagrams-dfds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Flow Diagrams (DFDs)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assurance-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assurance Models
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operational-model-of-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operational model of security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nist-csf" class="md-nav__link">
+    <span class="md-ellipsis">
+      NIST CSF
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adversaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adversaries
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adversaries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adversary-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adversary Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adversary-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adversary Groups
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adversary Groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#skill-and-capability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill and capability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#threat-landscape-shift" class="md-nav__link">
+    <span class="md-ellipsis">
+      Threat Landscape Shift
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-Risk-Management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Risk Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-Security-Policies-and-Regulations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Policies and Regulations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-Software-Development-Methodologies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software Development Methodologies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Secure Software Requirements
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Secure Software Requirements
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Secure-Software-Requirements/01-Policy-Decomposition/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Policy Decomposition
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Secure-Software-Requirements/02-Data-Classification-and-Categorization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Classification and Categorization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Secure-Software-Requirements/03-Requirements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requirements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Secure Software Design
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Secure Software Design
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Secure-Software-Design/01-Design-Processes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Processes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Secure-Software-Design/02-Design-Considerations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Considerations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Secure-Software-Design/03-Securing-Commonly-Used-Architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Securing Commonly Used Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Secure-Software-Design/04-Technologies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Technologies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Secure Software Implementation/Programming
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Secure Software Implementation/Programming
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Secure-Software-Implementation-Programming/01-Common-Software-Vulnerabilities-and-Countermeasures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Common Software Vulnerabilities and Countermeasures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Secure-Software-Implementation-Programming/02-Defensive-Coding-Practices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Defensive Coding Practices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Secure-Software-Implementation-Programming/03-Secure-Software-Coding-Operations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Secure Software Coding Operations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Secure Software Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Secure Software Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Secure-Software-Testing/01-Security-Quality-Assurance-Testing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Quality Assurance Testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Secure-Software-Testing/02-Security-Testing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Secure Lifecycle Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Secure Lifecycle Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Secure-Lifecycle-Management/01-Secure-Lifecycle-Management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General Security Concepts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Software Deployment, Operations, and Maintenance
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Software Deployment, Operations, and Maintenance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Software-Deployment-Operations-Maintenance/01-Secure-Software-Installation-and-Deployment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Secure Software Installation and Deployment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Software-Deployment-Operations-Maintenance/02-Secure-Software-Operations-and-Maintenance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Secure Software Operations and Maintenance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Supply Chain and Software Acquisition
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Supply Chain and Software Acquisition
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Supply-Chain-Software-Acquisition/01-Supply-Chain-and-Software-Acquisition/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supply Chain and Software Acquisition
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Terms/Terms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terms
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Outline/Outline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#security-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security Basics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#confidentiality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confidentiality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Availability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authentication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authorization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authorization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accounting-auditing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accounting (Auditing)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-repudiation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Non-repudiation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-tenets" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Tenets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="System Tenets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#session-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Session Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exception-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exception Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secure-design-tenets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secure Design Tenets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Secure Design Tenets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#good-enough-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good Enough Security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#least-privilege" class="md-nav__link">
+    <span class="md-ellipsis">
+      Least Privilege
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#separation-of-duties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Separation of Duties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defense-in-depth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defense in Depth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fail-safe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fail-safe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#economy-of-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Economy of Mechanism
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complete-mediation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complete Mediation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#least-common-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Least Common Mechanism
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psychological-acceptability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Psychological Acceptability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weakest-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weakest Link
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leveraging-existing-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Leveraging Existing Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-point-of-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single Point of Failure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-control-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access Control Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Access Control Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acl-access-control-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      ACL - access control list
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mac-mandatory-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      MAC - mandatory access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dac-discretionary-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      DAC - discretionary access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rbac-role-based-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      RBAC - role-based access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rbac-rule-based-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      RBAC - rule-based access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-control-matrix-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access control matrix model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abac-attribute-based-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      ABAC - attribute-based access control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bell-lapadula-confidentiality-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bell-LaPadula Confidentiality Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#take-grant-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Take-Grant Model
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multilevel-security-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multilevel Security Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrity Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrity Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#biba-integrity-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Biba Integrity Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clark-wilson-security-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clark-Wilson security model
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-flow-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information Flow Models
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Information Flow Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brewer-nash-model-chinese-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brewer-Nash Model (Chinese Wall)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-flow-diagrams-dfds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Flow Diagrams (DFDs)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Case Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assurance-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assurance Models
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operational-model-of-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operational model of security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nist-csf" class="md-nav__link">
+    <span class="md-ellipsis">
+      NIST CSF
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adversaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adversaries
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adversaries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adversary-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adversary Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adversary-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adversary Groups
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adversary Groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#skill-and-capability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill and capability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#threat-landscape-shift" class="md-nav__link">
+    <span class="md-ellipsis">
+      Threat Landscape Shift
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="general-security-concepts">General Security Concepts</h1>
+<h2 id="concepts">Concepts</h2>
+<h3 id="security-basics">Security Basics</h3>
+<p>📝 Determining and applying the appropriate balance of confidentiality, integrity, and availability (CIA)</p>
+<p>Although different, they are not necessarily contradictory - but they all require resources (money) and so the balance should be determined early on in the design process</p>
+<h4 id="confidentiality">Confidentiality</h4>
+<ul>
+<li><strong>Prevent disclosure of information to unauthorized parties</strong></li>
+<li>Numerous methods for keeping data confidential: e.g. access controls, encryption</li>
+<li><strong>Access Controls</strong>: Preferred for data in use and at rest</li>
+<li><strong>Encryption</strong>: Data at rest and in transit</li>
+</ul>
+<h4 id="integrity">Integrity</h4>
+<ul>
+<li><strong>Protect data from unauthorized alteration</strong></li>
+<li>e.g. Read-only, Read-and-write, write-only, delete access, etc</li>
+<li>Integrity contributes to a system's <strong>stability</strong> and <strong>reliability</strong> as well as the <strong>authenticity</strong> of data</li>
+</ul>
+<h4 id="availability">Availability</h4>
+<ul>
+<li>Availability needed is determined by criticality of data and purpose in the overall system</li>
+</ul>
+<h4 id="authentication">Authentication</h4>
+<ul>
+<li><strong>Determining the <em>identity</em> of a user. A user is authenticated before their authorization can be determined.</strong></li>
+<li>
+<p>To verify identity, a user can provide:</p>
+<ul>
+<li>Something you know - e.g. username/password (not very reliable)</li>
+<li>Something you have - e.g. token</li>
+<li>Something about you (something you are) e.g. biometrics<ul>
+<li>❗ Requires extra hardware, lacks specificity</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>New categories</p>
+<ul>
+<li>what users do (dynamic biometrics such as typing patterns, gait)</li>
+<li>where a user is (physical location)</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>ATMs use combination of something you know (PIN) and something you have (card) so if the card is lost, someone cannot authenticate as you</li>
+</ul>
+<h4 id="authorization">Authorization</h4>
+<ul>
+<li><strong>Applies predetermined access levels to the user</strong></li>
+</ul>
+<ol>
+<li>Three elements are used<ol>
+<li>Requestor (subject) - already known due to authentication system</li>
+<li>Object
+    1. file, program, data, other resource</li>
+<li>Type/level of access to be granted
+    1. Read, write, create, delete, right to grant access rights to other objects</li>
+</ol>
+</li>
+</ol>
+<h4 id="accounting-auditing">Accounting (Auditing)</h4>
+<ul>
+<li><strong>Accounting is a means of measuring activity, auditing is the verification of what actual happened and allows management to observe in a nonpartisan manner</strong></li>
+<li>Accounting can be done in IT systems by logging crucial activity as it occurs</li>
+<li>Accounting is needed when activity of specific data elements is crucial enough that it may be audited at a later date and time</li>
+</ul>
+<ul>
+<li>
+<p>Security level auditing can be performed at several levels:</p>
+<ul>
+<li>analysis of logging function</li>
+<li>verification of existence and operation of specific controls</li>
+<li>etc</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Auditing takes resources to create, store, and review. Typically defaulted to minimal level so system operator must determine correct level based on system criticality.</li>
+<li><strong>System criticality</strong> is determined by information criticality associated with information manipulated/stored with the system</li>
+</ul>
+<h4 id="non-repudiation">Non-repudiation</h4>
+<ul>
+<li><strong>Preventing a subject from denying a previous action with an object</strong></li>
+<li>When authentication, authorization, and auditing are properly configured, non-repudiation is ensured</li>
+<li><strong>Security requirements must specify the subjects, objects, and events for which non-repudiation is desired</strong></li>
+</ul>
+<h3 id="system-tenets">System Tenets</h3>
+<h4 id="session-management">Session Management</h4>
+<ul>
+<li><strong>Design and implementation of controls to ensure that communication channels are secured from unauthorized access and disruption</strong></li>
+<li>TCP (Transmission Control Protocol)<ul>
+<li>sequential numbering of packets and retransmission for missing packets</li>
+<li>Prevents unauthorized packets and session hijacking</li>
+<li>Has overhead</li>
+</ul>
+</li>
+<li>UDP (User Datagram Protocol)<ul>
+<li>connection-less/session-less</li>
+</ul>
+</li>
+</ul>
+<h4 id="exception-management">Exception Management</h4>
+<ul>
+<li>All exceptions must be detected and handled</li>
+<li>System should not fail in an insecure state</li>
+<li>Exception should not be leaked</li>
+</ul>
+<h4 id="configuration-management">Configuration Management</h4>
+<ul>
+<li>Configuration should be protected from unauthorized changes</li>
+<li>e.g. separation of duties between production/non-prod personnel</li>
+</ul>
+<h3 id="secure-design-tenets">Secure Design Tenets</h3>
+<h4 id="good-enough-security">Good Enough Security</h4>
+<ul>
+<li>Don't spend $10,000 to protect a $20 bill</li>
+<li>Trade-offs exist between security and other aspects</li>
+</ul>
+<h4 id="least-privilege">Least Privilege</h4>
+<ul>
+<li>If a subject may require different levels of security for different tasks, better to switch security levels with specific tasks than run all the time at higher privilege</li>
+</ul>
+<h4 id="separation-of-duties">Separation of Duties</h4>
+<ul>
+<li>No single individual can abuse the system</li>
+</ul>
+<h4 id="defense-in-depth">Defense in Depth</h4>
+<ul>
+<li>i.e. layered security/defense and diversity defense</li>
+<li>Multiple, overlapping defenses</li>
+<li>No system is 100% secure - <strong>true goal of security is to make cost of compromising greater in time/effort/resources than it is worth</strong></li>
+<li>Diversity of defense - layers should be dissimilar in nature</li>
+</ul>
+<h4 id="fail-safe">Fail-safe</h4>
+<ul>
+<li><strong>When a system experiences a failure, it should fail to a safe state</strong></li>
+<li>Example: explicit deny</li>
+<li>CIA need to be appropriately maintained - availability causes the greatest design difficulties</li>
+</ul>
+<h4 id="economy-of-mechanism">Economy of Mechanism</h4>
+<ul>
+<li>Higher complexity generally results in less security due to lack of understanding and more attack vectors</li>
+<li>Root cause analysis, especially for potential security issues, is much more difficult in complex systems</li>
+<li><strong>Rule of thumb</strong>: eliminate all nonessential services and protocols</li>
+</ul>
+<h4 id="complete-mediation">Complete Mediation</h4>
+<ul>
+<li><strong>Authorization is never circumvented, even with repeated access</strong></li>
+<li>Example: security kernel</li>
+</ul>
+<h4 id="open-design">Open Design</h4>
+<ul>
+<li>Don't rely on security by obscurity</li>
+<li>Example: modern cryptography relies on the secrecy of the key, not secrecy of the algorithm</li>
+</ul>
+<h4 id="least-common-mechanism">Least Common Mechanism</h4>
+<ul>
+<li><strong>Prevent inadvertent sharing of information by using separate processes when possible</strong></li>
+</ul>
+<h4 id="psychological-acceptability">Psychological Acceptability</h4>
+<ul>
+<li>Users will try to get around security if it is seen as an obstacle</li>
+</ul>
+<h4 id="weakest-link">Weakest Link</h4>
+<ul>
+<li>Adding to the security of a system is most effective when applied to the weakest link</li>
+</ul>
+<h4 id="leveraging-existing-components">Leveraging Existing Components</h4>
+<ul>
+<li>Pros: increase efficiency and security</li>
+<li>Cons: monoculture environment (failures have a larger footprint)</li>
+</ul>
+<h4 id="single-point-of-failure">Single Point of Failure</h4>
+<p>No one single piece should be able to cause the whole system to fail</p>
+<h2 id="security-models">Security Models</h2>
+<ul>
+<li>Three key elements: people, processes, and technology</li>
+<li>Controls using 2-3 elements are more effective</li>
+</ul>
+<h3 id="access-control-models">Access Control Models</h3>
+<h4 id="acl-access-control-list">ACL - access control list</h4>
+<h4 id="mac-mandatory-access-control">MAC - mandatory access control</h4>
+<ul>
+<li>rarely used</li>
+<li>originated in military</li>
+<li><strong>restrict based on information sensitivity and clearance to access that information</strong></li>
+<li>system designers have to determine object/subject relationships before they can be used</li>
+</ul>
+<h4 id="dac-discretionary-access-control">DAC - discretionary access control</h4>
+<ul>
+<li>most common</li>
+<li>originated in military</li>
+<li><strong>restrict based on identity of subjects/groups they belong to</strong></li>
+<li>If a subject has permission, it is capable of passing that permission onto any other subject</li>
+<li>ACLs are the most common mechanism used to implement this control</li>
+<li><strong>Strength</strong>: simplicity</li>
+<li><strong>Weakness</strong>: security is optional, owner has to define access for potentially a plethora of objects</li>
+</ul>
+<h4 id="rbac-role-based-access-control">RBAC - role-based access control</h4>
+<p>pretty common for active directory</p>
+<h4 id="rbac-rule-based-access-control">RBAC - rule-based access control</h4>
+<ul>
+<li>much less common than role-based</li>
+<li>Use ACLs that have rules baked in such as only allow access during a certain time-of-day</li>
+</ul>
+<h4 id="access-control-matrix-model">Access control matrix model</h4>
+<ul>
+<li>strength: simplicity</li>
+<li>weakness: difficult to implement due to no constraints, doesn't scale well</li>
+</ul>
+<h4 id="abac-attribute-based-access-control">ABAC - attribute-based access control</h4>
+<ul>
+<li>Example: doctor getting one set of access for a specific patient vs a different patient</li>
+<li>Represented via eXtensible Access Control Markup Language (XACML)<ul>
+<li>also works for policy-based access control</li>
+</ul>
+</li>
+</ul>
+<h4 id="bell-lapadula-confidentiality-model">Bell-LaPadula Confidentiality Model</h4>
+<ol>
+<li>Two principles<ol>
+<li>Simple Security Rule - in order to see something, you have to be authorized
+    1. Used to preserve confidentiality - e.g. subject with medium clearance can't ready information with high sensitivity, only medium sensitivity
+    2. No-read-up</li>
+<li>* property (star property)
+    1. No-write-down
+    2. Subjects can only write to an object if the object has equal or higher classification - e.g. medium clearance can only write to medium sensitivity and above</li>
+</ol>
+</li>
+</ol>
+<h4 id="take-grant-model">Take-Grant Model</h4>
+<ul>
+<li>Uses graph theory based on mathematical representation of controls</li>
+<li>Can be used to definitively determine rights</li>
+<li>Not typically used to implement access control but rather to analyze implementations</li>
+</ul>
+<h3 id="multilevel-security-model">Multilevel Security Model</h3>
+<ul>
+<li><strong>Separate groups have labels, groups act as containers, can be hierarchical</strong></li>
+</ul>
+<h3 id="integrity-models">Integrity Models</h3>
+<ul>
+<li>Depending on type of information, can be just as important or more important than confidentiality. e.g. stock prices (public but integrity is crucial)</li>
+</ul>
+<h4 id="biba-integrity-model">Biba Integrity Model</h4>
+<ul>
+<li>Preserves information integrity</li>
+<li>Integrity levels separate permissions</li>
+<li>Low water mark policy, i.e. no-write-up rule<ul>
+<li>lower integrity subjects can't write up to higher integrity subjects</li>
+</ul>
+</li>
+<li>Integrity level of a subject is lowered if it acts on a subject with lower integrity</li>
+</ul>
+<h4 id="clark-wilson-security-model">Clark-Wilson security model</h4>
+<ul>
+<li>Uses transactions</li>
+<li>Two levels:<ul>
+<li>Constrained data items (CDI)<ul>
+<li>Subject to integrity controls</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Unconstrained data items (UDI)</li>
+<li>Two types of processes:<ul>
+<li>Integrity verification processes (IVPs)<ul>
+<li>Ensure CDI data meets constraints</li>
+</ul>
+</li>
+<li>Transformation processes (TPs)<ul>
+<li>Change state of data from one to another</li>
+<li>Data can only be changed by trusted TPs, not users</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li>A bank account balance is a CDI since integrity is important</li>
+<li>TP is the only way changes can be made</li>
+<li>IVP ensures balance is correct</li>
+</ul>
+<h3 id="information-flow-models">Information Flow Models</h3>
+<h4 id="brewer-nash-model-chinese-wall">Brewer-Nash Model (Chinese Wall)</h4>
+<ul>
+<li>Technology employed to prevent access</li>
+<li>People trained not to compromise information</li>
+<li>Policies/processes put in place to ensure technology/people are properly used</li>
+</ul>
+<h4 id="data-flow-diagrams-dfds">Data Flow Diagrams (DFDs)</h4>
+<ul>
+<li>Main security issue is protecting information when stored, in transit, and being processed</li>
+<li>Multiple levels - Level 0 (high level), level 1, level 2 (lowest level)</li>
+</ul>
+<h4 id="use-case-model">Use Case Model</h4>
+<ul>
+<li>Functional perspective - how the system uses data</li>
+</ul>
+<ul>
+<li>Use cases for normal and abnormal use<ul>
+<li><strong>Very important to security to understand use cases and misuse cases</strong></li>
+</ul>
+</li>
+</ul>
+<h4 id="assurance-models">Assurance Models</h4>
+<ul>
+<li><strong>Software assurance - level of confidence that software is free from intentional and accidental vulnerabilities, software functions as intended</strong></li>
+</ul>
+<h4 id="operational-model-of-security">Operational model of security</h4>
+<p>Three methods of managing security:</p>
+<ol>
+<li>prevention - access control, firewall, encryption</li>
+<li>detection - audit logs, intrusion detection, honeypots</li>
+<li>response - backups, incident response teams, forensics</li>
+</ol>
+<h4 id="nist-csf">NIST CSF</h4>
+<p>Standards, guidelines, best practices</p>
+<p>5 main categories:</p>
+<ol>
+<li>Identify</li>
+<li>Protect</li>
+<li>Detect</li>
+<li>Respond</li>
+<li>Recover</li>
+</ol>
+<h2 id="adversaries">Adversaries</h2>
+<p>Includes mother nature :)</p>
+<h3 id="adversary-type">Adversary Type</h3>
+<ul>
+<li><strong>Based on skill level</strong></li>
+</ul>
+<ol>
+<li>Script Kiddie - 80-85% of adversaries</li>
+<li>Hacker - explorer - 15-20% <strong>key adversary due to skill/motivation</strong><ol>
+<li>Cracker - hacker with malicious intent</li>
+</ol>
+</li>
+<li>Elite - 1-3%<ol>
+<li>completely underground</li>
+</ol>
+</li>
+</ol>
+<h3 id="adversary-groups">Adversary Groups</h3>
+<h4 id="skill-and-capability">Skill and capability</h4>
+<ol>
+<li>Unstructured threat - little or no resources, no specific motivation, typically only an annoyance</li>
+<li>Structured threat - specific mission, time and resources</li>
+<li>Highly structured threat - organized crime, crimeware</li>
+<li>Nation-state threat<ol>
+<li>Advanced persistent threat (APT) - multiple methods to penetrate and then live undetected</li>
+</ol>
+</li>
+<li>Insider vs outsider</li>
+</ol>
+<h3 id="threat-landscape-shift">Threat Landscape Shift</h3>
+<ul>
+<li>Around 2005 - criminalization of cyberspace allowing monetization</li>
+<li>Market for exploits</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.c011b7c0.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.7389ff0e.min.js"></script>
+      
+    
+  </body>
+</html>
